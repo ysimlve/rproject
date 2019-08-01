@@ -1,0 +1,559 @@
+PassengerId,Name,NameTitle,Sex,Age,SibSp,Parch,Ticket,Role
+586,"Taussig, Miss. Ruth",Miss.,female,18,0,2,110413,Dau.
+559,"Taussig, Mrs. Emil (Tillie Mandelbaum)",Mrs.,female,39,1,1,110413,Mother
+263,"Taussig, Mr. Emil",Mr.,male,52,1,1,110413,Father
+367,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",Mrs.,female,60,1,0,110813,Wif.
+1128,"Warren, Mr. Frank Manley",Mr.,male,64,1,0,110813,Hus.
+330,"Hippach, Miss. Jean Gertrude",Miss.,female,16,0,1,111361,Dau.
+524,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",Mrs.,female,44,0,1,111361,Mother
+1294,"Gibson, Miss. Dorothy Winifred",Miss.,female,22,0,1,112378,Dau.
+1260,"Gibson, Mrs. Leonard (Pauline C Boeson)",Mrs.,female,45,0,1,112378,Mother
+1197,"Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)",Mrs.,female,64,1,1,112901,Mother
+966,"Geiger, Miss. Amalie",Miss.,female,35,0,0,113503,
+378,"Widener, Mr. Harry Elkins",Mr.,male,27,0,2,113503,Son
+967,"Keeping, Mr. Edwin",Mr.,male,32.5,0,0,113503,
+1110,"Widener, Mrs. George Dunton (Eleanor Elkins)",Mrs.,female,50,1,1,113503,Mother
+1299,"Widener, Mr. George Dunton",Mr.,male,50,1,1,113503,Father
+357,"Bowerman, Miss. Elsie Edith",Miss.,female,22,0,1,113505,Dau.
+167,"Chibnall, Mrs. (Edith Martha Bowerman)",Mrs.,female,42,0,1,113505,Mother
+918,"Ostby, Miss. Helene Ragnhild",Miss.,female,22,0,1,113509,Dau.
+55,"Ostby, Mr. Engelhart Cornelius",Mr.,male,65,0,1,113509,Father
+803,"Carter, Master. William Thornton II",Master.,male,11,1,2,113760,Son
+436,"Carter, Miss. Lucile Polk",Miss.,female,14,1,2,113760,Dau.
+391,"Carter, Mr. William Ernest",Mr.,male,36,1,2,113760,Father
+764,"Carter, Mrs. William Ernest (Lucile Polk)",Mrs.,female,36,1,2,113760,Mother
+1074,"Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)",Mrs.,female,18,1,0,113773,Wif.
+749,"Marvin, Mr. Daniel Warner",Mr.,male,19,1,0,113773,Hus.
+152,"Pears, Mrs. Thomas (Edith Wearne)",Mrs.,female,22,1,0,113776,Wif.
+337,"Pears, Mr. Thomas Clinton",Mr.,male,29,1,0,113776,Hus.
+306,"Allison, Master. Hudson Trevor",Master.,male,0.92,1,2,113781,Son
+298,"Allison, Miss. Helen Loraine",Miss.,female,2,1,2,113781,Dau.
+709,"Cleaver, Miss. Alice",Miss.,female,22,0,0,113781,
+1033,"Daniels, Miss. Sarah",Miss.,female,33,0,0,113781,
+499,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",Mrs.,female,25,1,2,113781,Mother
+1198,"Allison, Mr. Hudson Joshua Creighton",Mr.,male,30,1,2,113781,Father
+384,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",Mrs.,female,35,1,0,113789,Wif.
+36,"Holverson, Mr. Alexander Oskar",Mr.,male,42,1,0,113789,Hus.
+4,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",Mrs.,female,35,1,0,113803,Wif.
+138,"Futrelle, Mr. Jacques Heath",Mr.,male,37,1,0,113803,Hus.
+725,"Chambers, Mr. Norman Campbell",Mr.,male,27,1,0,113806,Hus.
+810,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",Mrs.,female,33,1,0,113806,Wif.
+42,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",Mrs.,female,27,1,0,11668,Wif.
+118,"Turpin, Mr. William John Robert",Mr.,male,29,1,0,11668,Hus.
+249,"Beckwith, Mr. Richard Leonard",Mr.,male,37,1,1,11751,Father
+872,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",Mrs.,female,47,1,1,11751,Mother
+137,"Newsom, Miss. Helen Monypeny",Miss.,female,19,0,2,11752,Dau.
+622,"Kimball, Mr. Edwin Nelson Jr",Mr.,male,42,1,0,11753,Hus.
+936,"Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)",Mrs.,female,45,1,0,11753,Wif.
+557,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",Mrs.,female,48,1,0,11755,
+371,"Harder, Mr. George Achilles",Mr.,male,25,1,0,11765,Hus.
+1256,"Harder, Mrs. George Achilles (Dorothy Annan)",Mrs.,female,25,1,0,11765,Wif.
+311,"Hays, Miss. Margaret Bechstein",Miss.,female,24,0,0,11767,
+1042,"Earnshaw, Mrs. Boulton (Olive Potter)",Mrs.,female,23,0,1,11767,Dau.
+880,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",Mrs.,female,56,0,1,11767,Mother
+572,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",Mrs.,female,53,2,0,11769,Sib.
+1248,"Brown, Mrs. John Murray (Caroline Lane Lamson)",Mrs.,female,59,2,0,11769,Sib.
+969,"Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)",Mrs.,female,55,2,0,11770,Sib.
+992,"Stengel, Mrs. Charles Emil Henry (Annie May Morris)",Mrs.,female,43,1,0,11778,Wif.
+1069,"Stengel, Mr. Charles Emil Henry",Mr.,male,54,1,0,11778,Hus.
+292,"Bishop, Mrs. Dickinson H (Helen Walton)",Mrs.,female,19,1,0,11967,Wif.
+485,"Bishop, Mr. Dickinson H",Mr.,male,25,1,0,11967,Hus.
+521,"Perreault, Miss. Anne",Miss.,female,30,0,0,12749,
+1282,"Payne, Mr. Vivian Ponsonby",Mr.,male,23,0,0,12749,
+821,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",Mrs.,female,52,1,1,12749,Mother
+1200,"Hays, Mr. Charles Melville",Mr.,male,55,1,1,12749,Father
+926,"Mock, Mr. Philipp Edmund",Mr.,male,30,1,0,13236,Hus.
+1014,"Schabert, Mrs. Paul (Emma Mock)",Mrs.,female,35,1,0,13236,Wif.
+628,"Longley, Miss. Gretchen Fiske",Miss.,female,21,0,0,13502,
+276,"Andrews, Miss. Kornelia Theodosia",Miss.,female,63,1,0,13502,Sib.
+766,"Hogeboom, Mrs. John C (Anna Andrews)",Mrs.,female,51,1,0,13502,Sib.
+578,"Silvey, Mrs. William Baird (Alice Munger)",Mrs.,female,39,1,0,13507,Wif.
+435,"Silvey, Mr. William Baird",Mr.,male,50,1,0,13507,Hus.
+1164,"Clark, Mrs. Walter Miller (Virginia McDowell)",Mrs.,female,26,1,0,13508,Wif.
+1144,"Clark, Mr. Walter Miller",Mr.,male,27,1,0,13508,Hus.
+1289,"Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)",Mrs.,female,48,1,1,13567,Mother
+588,"Frolicher-Stehli, Mr. Maxmillian",Mr.,male,60,1,1,13567,Father
+540,"Frolicher, Miss. Hedwig Margaritha",Miss.,female,22,0,2,13568,Dau.
+1287,"Smith, Mrs. Lucien Philip (Mary Eloise Hughes)",Mrs.,female,18,1,0,13695,Wif.
+942,"Smith, Mr. Lucien Philip",Mr.,male,24,1,0,13695,Hus.
+1088,"Spedden, Master. Robert Douglas",Master.,male,6,0,2,16966,Son
+1263,"Wilson, Miss. Helen Alice",Miss.,female,31,0,0,16966,
+338,"Burns, Miss. Elizabeth Margaret",Miss.,female,41,0,0,16966,
+320,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",Mrs.,female,40,1,1,16966,Mother
+1134,"Spedden, Mr. Frederic Oakley",Mr.,male,45,1,1,16966,Father
+307,"Fleming, Miss. Margaret",Miss.,female,NA,0,0,17421,
+551,"Thayer, Mr. John Borland Jr",Mr.,male,17,0,2,17421,Son
+582,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",Mrs.,female,39,1,1,17421,Mother
+699,"Thayer, Mr. John Borland",Mr.,male,49,1,1,17421,Father
+454,"Goldenberg, Mr. Samuel L",Mr.,male,49,1,0,17453,Hus.
+850,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",Mrs.,female,49,1,0,17453,Wif.
+1137,"Kenyon, Mr. Frederick R",Mr.,male,41,1,0,17464,Hus.
+458,"Kenyon, Mrs. Frederick R (Marion)",Mrs.,female,41,1,0,17464,Wif.
+782,"Dick, Mrs. Albert Adrian (Vera Gillespie)",Mrs.,female,17,1,0,17474,Wif.
+691,"Dick, Mr. Albert Adrian",Mr.,male,31,1,0,17474,Hus.
+1296,"Frauenthal, Mr. Isaac Gerald",Mr.,male,43,1,0,17765,Sib.
+291,"Barber, Miss. Ellen ""Nellie""",Miss.,female,26,0,0,19877,
+742,"Cavendish, Mr. Tyrell William",Mr.,male,36,1,0,19877,Hus.
+988,"Cavendish, Mrs. Tyrell William (Julia Florence Siegel)",Mrs.,female,76,1,0,19877,Wif.
+413,"Minahan, Miss. Daisy E",Miss.,female,33,1,0,19928,Sib.
+1303,"Minahan, Mrs. William Edward (Lillian E Thorpe)",Mrs.,female,37,1,0,19928,Wif.
+246,"Minahan, Dr. William Edward",Mr.,male,44,2,0,19928,Hus.
+487,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",Mrs.,female,35,1,0,19943,Wif.
+225,"Hoyt, Mr. Frederick Maxfield",Mr.,male,38,1,0,19943,Hus.
+89,"Fortune, Miss. Mabel Helen",Miss.,female,23,3,2,19950,Dau.
+342,"Fortune, Miss. Alice Elizabeth",Miss.,female,24,3,2,19950,Dau.
+945,"Fortune, Miss. Ethel Flora",Miss.,female,28,3,2,19950,Dau.
+28,"Fortune, Mr. Charles Alexander",Mr.,male,19,3,2,19950,Son
+961,"Fortune, Mrs. Mark (Mary McDougald)",Mrs.,female,60,1,4,19950,Mother
+439,"Fortune, Mr. Mark",Mr.,male,64,1,4,19950,Father
+713,"Taylor, Mr. Elmer Zebley",Mr.,male,48,1,0,19996,Hus.
+670,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",Mrs.,female,48,1,0,19996,Wif.
+427,"Clarke, Mrs. Charles V (Ada Maria Winfield)",Mrs.,female,28,1,0,2003,Wif.
+1220,"Clarke, Mr. Charles Valentine",Mr.,male,29,1,0,2003,Hus.
+904,"Snyder, Mrs. John Pillsbury (Nelle Stevenson)",Mrs.,female,23,1,0,21228,Wif.
+1179,"Snyder, Mr. John Pillsbury",Mr.,male,24,1,0,21228,Hus.
+616,"Herman, Miss. Alice",Miss.,female,24,1,2,220845,Dau.
+1277,"Herman, Miss. Kate",Miss.,female,24,1,2,220845,Dau.
+1122,"Sweet, Mr. George Frederick",Mr.,male,14,0,0,220845,
+755,"Herman, Mrs. Samuel (Jane Laver)",Mrs.,female,48,1,2,220845,Mother
+1245,"Herman, Mr. Samuel",Mr.,male,49,1,2,220845,Father
+1082,"Angle, Mr. William A",Mr.,male,34,1,0,226875,Hus.
+519,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",Mrs.,female,36,1,0,226875,Wif.
+993,"Weisz, Mr. Leopold",Mr.,male,27,1,0,228414,Hus.
+134,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",Mrs.,female,29,1,0,228414,Wif.
+341,"Navratil, Master. Edmond Roger",Master.,male,2,1,1,230080,Son
+194,"Navratil, Master. Michel M",Master.,male,3,1,1,230080,Son
+149,"Navratil, Mr. Michel (""Louis M Hoffman"")",Mr.,male,36.5,0,2,230080,Father
+184,"Becker, Master. Richard F",Master.,male,1,2,1,230136,Son
+619,"Becker, Miss. Marion Louise",Miss.,female,4,2,1,230136,Dau.
+1218,"Becker, Miss. Ruth Elizabeth",Miss.,female,12,2,1,230136,Dau.
+1070,"Becker, Mrs. Allen Oliver (Nellie E Baumgardner)",Mrs.,female,36,0,3,230136,Mother
+881,"Shelley, Mrs. William (Imanita Parrish Hall)",Mrs.,female,25,0,1,230433,Dau.
+260,"Parrish, Mrs. (Lutie Davis)",Mrs.,female,50,0,1,230433,Mother
+652,"Doling, Miss. Elsie",Miss.,female,18,0,1,231919,Dau.
+99,"Doling, Mrs. John T (Ada Julia Bone)",Mrs.,female,34,0,1,231919,Mother
+1167,"Bryhl, Miss. Dagmar Jenny Ingeborg ",Miss.,female,20,1,0,236853,Wif.
+729,"Bryhl, Mr. Kurt Arnold Gottfrid",Mr.,male,25,1,0,236853,Hus.
+10,"Nasser, Mrs. Nicholas (Adele Achem)",Mrs.,female,14,1,0,237736,Wif.
+123,"Nasser, Mr. Nicholas",Mr.,male,32.5,1,0,237736,Hus.
+581,"Christy, Miss. Julie Rachel",Miss.,female,25,1,1,237789,Dau.
+1133,"Christy, Mrs. (Alice Frances)",Mrs.,female,45,0,2,237789,Mother
+1105,"Howard, Mrs. Benjamin (Ellen Truelove Arman)",Mrs.,female,60,1,0,24065,Wif.
+905,"Howard, Mr. Benjamin",Mr.,male,63,1,0,24065,Hus.
+690,"Madill, Miss. Georgette Alexandra",Miss.,female,15,0,1,24160,Dau.
+731,"Allen, Miss. Elisabeth Walton",Miss.,female,29,0,0,24160,
+1216,"Kreuchen, Miss. Emilie",Miss.,female,39,0,0,24160,
+780,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",Mrs.,female,43,0,1,24160,Mother
+601,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",Mrs.,female,24,2,1,243847,Wif.
+218,"Jacobsohn, Mr. Sidney Samuel",Mr.,male,42,1,0,243847,Hus.
+855,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",Mrs.,female,44,1,0,244252,Wif.
+317,"Kantor, Mrs. Sinai (Miriam Sternin)",Mrs.,female,24,1,0,244367,Wif.
+100,"Kantor, Mr. Sinai",Mr.,male,34,1,0,244367,Hus.
+721,"Harper, Miss. Annie Jessie ""Nina""",Miss.,female,6,0,1,248727,Dau.
+597,"Leitch, Miss. Jessie Wills",Miss.,female,NA,0,0,248727,
+79,"Caldwell, Master. Alden Gates",Master.,male,0.83,0,2,248738,Son
+324,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",Mrs.,female,22,1,1,248738,Mother
+899,"Caldwell, Mr. Albert Francis",Mr.,male,26,1,1,248738,Father
+447,"Mellinger, Miss. Madeleine Violet",Miss.,female,13,0,1,250644,Dau.
+273,"Mellinger, Mrs. (Elizabeth Anne Maidment)",Mrs.,female,41,0,1,250644,Mother
+756,"Hamalainen, Master. Viljo",Master.,male,0.67,1,1,250649,Son
+248,"Hamalainen, Mrs. William (Anna)",Mrs.,female,24,0,2,250649,Mother
+1130,"Hiltunen, Miss. Marta",Miss.,female,18,1,1,250650,Dau.
+313,"Lahtinen, Mrs. William (Anna Sylfven)",Mrs.,female,26,1,1,250651,Wif.
+418,"Silven, Miss. Lyyli Karoliina",Miss.,female,18,0,2,250652,Dau.
+1025,"Thomas, Mr. Charles P",Mr.,male,20,1,0,2621,Father
+804,"Thomas, Master. Assad Alexander",Master.,male,0.42,0,1,2625,Son
+996,"Thomas, Mrs. Alexander (Thamine Thelma"")""",Mrs.,female,16,1,1,2625,Mother
+531,"Quick, Miss. Phyllis May",Miss.,female,2,1,1,26360,Dau.
+1095,"Quick, Miss. Winifred Vera",Miss.,female,8,1,1,26360,Dau.
+507,"Quick, Mrs. Frederick Charles (Jane Richards)",Mrs.,female,33,0,2,26360,Mother
+1053,"Touma, Master. Georges Youssef",Master.,male,7,1,1,2650,Son
+1175,"Touma, Miss. Maria Youssef",Miss.,female,9,1,1,2650,Dau.
+256,"Touma, Mrs. Darwis (Hanne Youssef Razi)",Mrs.,female,29,0,2,2650,Mother
+126,"Nicola-Yarred, Master. Elias",Master.,male,12,1,0,2651,Sib.
+40,"Nicola-Yarred, Miss. Jamila",Miss.,female,14,1,0,2651,Sib.
+382,"Nakid, Miss. Maria (""Mary"")",Miss.,female,1,0,2,2653,Dau.
+1225,"Nakid, Mrs. Said (Waika Mary"" Mowad)""",Mrs.,female,19,1,1,2653,Mother
+623,"Nakid, Mr. Sahid",Mr.,male,20,1,1,2653,Father
+831,"Yasbeck, Mrs. Antoni (Selini Alexander)",Mrs.,female,15,1,0,2659,Wif.
+621,"Yasbeck, Mr. Antoni",Mr.,male,27,1,0,2659,Hus.
+977,"Khalil, Mr. Betros",Mr.,male,NA,1,0,2660,Hus.
+1141,"Khalil, Mrs. Betros (Zahie Maria"" Elias)""",Mrs.,female,NA,1,0,2660,Wif.
+66,"Moubarek, Master. Gerios",Master.,male,NA,1,1,2661,Son
+710,"Moubarek, Master. Halim Gonios (""William George"")",Master.,male,NA,1,1,2661,Son
+1117,"Moubarek, Mrs. George (Omine Amenia"" Alexander)""",Mrs.,female,NA,0,2,2661,Mother
+49,"Samaan, Mr. Youssef",Mr.,male,NA,2,0,2662,Sib.
+921,"Samaan, Mr. Elias",Mr.,male,NA,2,0,2662,Sib.
+1189,"Samaan, Mr. Hanna",Mr.,male,NA,2,0,2662,Sib.
+112,"Zabour, Miss. Hileni",Miss.,female,14.5,1,0,2665,Sib.
+241,"Zabour, Miss. Thamine",Miss.,female,14.5,1,0,2665,Sib.
+470,"Baclini, Miss. Helene Barbara",Miss.,female,0.75,2,1,2666,Dau.
+645,"Baclini, Miss. Eugenie",Miss.,female,0.75,2,1,2666,Dau.
+449,"Baclini, Miss. Marie Catherine",Miss.,female,5,2,1,2666,Dau.
+859,"Baclini, Mrs. Solomon (Latifa Qurban)",Mrs.,female,24,0,3,2666,Mother
+129,"Peter, Miss. Anna",Miss.,female,NA,1,1,2668,Dau.
+1309,"Peter, Master. Michael J",Master.,male,NA,1,1,2668,Son
+534,"Peter, Mrs. Catherine (Catherine Rizk)",Mrs.,female,NA,0,2,2668,Mother
+1140,"Hold, Mrs. Stephen (Annie Margaret Hill)",Mrs.,female,29,1,0,26707,Wif.
+237,"Hold, Mr. Stephen",Mr.,male,44,1,0,26707,Hus.
+1229,"Elias, Mr. Joseph",Mr.,male,39,0,2,2675,Father
+972,"Boulos, Master. Akar",Master.,male,6,1,1,2678,Son
+853,"Boulos, Miss. Nourelain",Miss.,female,9,1,1,2678,Dau.
+141,"Boulos, Mrs. Joseph (Sultana)",Mrs.,female,29,0,2,2678,Mother
+1007,"Chronopoulos, Mr. Demetrios",Mr.,male,18,1,0,2680,Sib.
+74,"Chronopoulos, Mr. Apostolos",Mr.,male,26,1,0,2680,Sib.
+579,"Caram, Mrs. Joseph (Maria Elias)",Mrs.,female,NA,1,0,2689,Wif.
+1258,"Caram, Mr. Joseph",Mr.,male,NA,1,0,2689,Hus.
+533,"Elias, Mr. Joseph Jr",Mr.,male,17,1,1,2690,Son
+703,"Barbara, Miss. Saiide",Miss.,female,18,0,1,2691,Dau.
+363,"Barbara, Mrs. (Catherine David)",Mrs.,female,45,0,1,2691,Mother
+353,"Elias, Mr. Tannous",Mr.,male,15,1,1,2695,Son
+1262,"Giles, Mr. Edgar",Mr.,male,21,1,0,28133,Sib.
+862,"Giles, Mr. Frederick Edward",Mr.,male,21,1,0,28134,Sib.
+1086,"Drew, Master. Marshall Brines",Master.,male,8,0,2,28220,Dau.
+417,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",Mrs.,female,34,1,1,28220,Mother
+1139,"Drew, Mr. James Vivian",Mr.,male,42,1,1,28220,Father
+406,"Gale, Mr. Shadrach",Mr.,male,34,1,0,28664,Sib.
+1293,"Gale, Mr. Harry",Mr.,male,38,1,0,28664,Sib.
+1298,"Ware, Mr. William Jeffery",Mr.,male,23,1,0,28666,Sib.
+547,"Beane, Mrs. Edward (Ethel Clarke)",Mrs.,female,19,1,0,2908,Wif.
+544,"Beane, Mr. Edward",Mr.,male,32,1,0,2908,Hus.
+981,"Wells, Master. Ralph Lester",Master.,male,2,1,1,29103,Son
+751,"Wells, Miss. Joan",Miss.,female,4,1,1,29103,Dau.
+1154,"Wells, Mrs. Arthur Henry (Addie"" Dart Trevaskis)""",Mrs.,female,29,0,2,29103,Mother
+530,"Hocking, Mr. Richard George",Mr.,male,23,2,1,29104,Son
+944,"Hocking, Miss. Ellen Nellie""""",Miss.,female,20,2,1,29105,Dau.
+775,"Hocking, Mrs. Elizabeth (Eliza Needs)",Mrs.,female,54,1,3,29105,Mother
+832,"Richards, Master. George Sibley",Master.,male,0.83,1,1,29106,Son
+408,"Richards, Master. William Rowe",Master.,male,3,1,1,29106,Son
+438,"Richards, Mrs. Sidney (Emily Hocking)",Mrs.,female,24,2,3,29106,Mother
+54,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",Mrs.,female,29,1,0,2926,Wif.
+1169,"Faunthorpe, Mr. Harry",Mr.,male,40,1,0,2926,Hus.
+1067,"Brown, Miss. Edith Eileen",Miss.,female,15,0,2,29750,Dau.
+671,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",Mrs.,female,40,1,1,29750,Mother
+685,"Brown, Mr. Thomas William Solomon",Mr.,male,60,1,1,29750,Father
+1124,"Wiklund, Mr. Karl Johan",Mr.,male,21,1,0,3101266,Sib.
+372,"Wiklund, Mr. Jakob Alfred",Mr.,male,18,1,0,3101267,Sib.
+105,"Gustafsson, Mr. Anders Vilhelm",Mr.,male,37,2,0,3101276,Sib.
+393,"Gustafsson, Mr. Johan Birger",Mr.,male,28,2,0,3101277,Sib.
+207,"Backstrom, Mr. Karl Alfred",Mr.,male,32,1,0,3101278,Hus.
+86,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",Mrs.,female,33,3,0,3101278,Wif.
+69,"Andersson, Miss. Erna Alexandra",Miss.,female,17,4,2,3101281,Dau.
+165,"Panula, Master. Eino Viljami",Master.,male,1,4,1,3101295,Son
+825,"Panula, Master. Urho Abraham",Master.,male,2,4,1,3101295,Son
+51,"Panula, Master. Juha Niilo",Master.,male,7,4,1,3101295,Son
+1259,"Riihivouri, Miss. Susanna Juhantytar Sanni""""",Miss.,female,22,0,0,3101295,
+687,"Panula, Mr. Jaako Arnold",Mr.,male,14,4,1,3101295,Son
+267,"Panula, Mr. Ernesti Arvid",Mr.,male,16,4,1,3101295,Son
+639,"Panula, Mrs. Juha (Maria Emilia Ojala)",Mrs.,female,41,0,5,3101295,Mother
+480,"Hirvonen, Miss. Hildur E",Miss.,female,2,0,1,3101298,Dau.
+896,"Hirvonen, Mrs. Alexander (Helga E Lindqvist)",Mrs.,female,22,1,1,3101298,Mother
+727,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",Mrs.,female,30,3,0,31027,Wif.
+477,"Renouf, Mr. Peter Henry",Mr.,male,34,1,0,31027,Hus.
+70,"Kink, Mr. Vincenz",Mr.,male,26,2,0,315151,Hus.
+1268,"Kink, Miss. Maria",Miss.,female,22,2,0,315152,Wif.
+185,"Kink-Heilmann, Miss. Luise Gretchen",Miss.,female,4,0,2,315153,Dau.
+1057,"Kink-Heilmann, Mrs. Anton (Luise Heilmann)",Mrs.,female,26,1,1,315153,Mother
+1286,"Kink-Heilmann, Mr. Anton",Mr.,male,29,3,1,315153,Father
+446,"Dodge, Master. Washington",Master.,male,4,0,2,33638,Son
+1185,"Dodge, Dr. Washington",Mr.,male,53,1,1,33638,Father
+1266,"Dodge, Mrs. Washington (Ruth Vidaver)",Mrs.,female,54,1,1,33638,Mother
+560,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",Mrs.,female,36,1,0,345572,Wif.
+1152,"de Messemaeker, Mr. Guillaume Joseph",Mr.,male,36.5,1,0,345572,Hus.
+19,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",Mrs.,female,31,1,0,345763,Wif.
+1037,"Vander Planke, Mr. Julius",Mr.,male,31,3,0,345763,Hus.
+39,"Vander Planke, Miss. Augusta Maria",Miss.,female,18,2,0,345764,Sib.
+334,"Vander Planke, Mr. Leo Edmondus",Mr.,male,16,2,0,345764,Sib.
+420,"Van Impe, Miss. Catharina",Miss.,female,10,0,2,345773,Dau.
+800,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",Mrs.,female,30,1,1,345773,Mother
+596,"Van Impe, Mr. Jean Baptiste",Mr.,male,36,1,1,345773,Father
+478,"Braund, Mr. Lewis Richard",Mr.,male,29,1,0,3460,Sib.
+206,"Strom, Miss. Telma Matilda",Miss.,female,2,0,1,347054,Dau.
+252,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",Mrs.,female,29,1,1,347054,Mother
+982,"Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)",Mrs.,female,22,1,0,347072,Wif.
+1064,"Dyker, Mr. Adolf Fredrik",Mr.,male,23,1,0,347072,Hus.
+443,"Petterson, Mr. Johan Emil",Mr.,male,25,1,0,347076,Sib.
+262,"Asplund, Master. Edvin Rojj Felix",Master.,male,3,4,2,347077,Son
+234,"Asplund, Miss. Lillian Gertrud",Miss.,female,5,4,2,347077,Dau.
+1271,"Asplund, Master. Carl Edgar",Master.,male,5,4,2,347077,Son
+183,"Asplund, Master. Clarence Gustaf Hugo",Master.,male,9,4,2,347077,Son
+1046,"Asplund, Master. Filip Oscar",Master.,male,13,4,2,347077,Son
+26,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",Mrs.,female,38,1,5,347077,Mother
+1066,"Asplund, Mr. Carl Oscar Vilhelm Gustafsson",Mr.,male,40,1,5,347077,Father
+1093,"Danbom, Master. Gilbert Sigvard Emanuel",Master.,male,0.33,0,2,347080,Son
+424,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",Mrs.,female,28,1,1,347080,Mother
+617,"Danbom, Mr. Ernst Gilbert",Mr.,male,34,1,1,347080,Father
+120,"Andersson, Miss. Ellis Anna Maria",Miss.,female,2,4,2,347082,Dau.
+851,"Andersson, Master. Sigvard Harald Elias",Master.,male,4,4,2,347082,Son
+814,"Andersson, Miss. Ebba Iris Alfrida",Miss.,female,6,4,2,347082,Dau.
+542,"Andersson, Miss. Ingeborg Constanzia",Miss.,female,9,4,2,347082,Dau.
+543,"Andersson, Miss. Sigrid Elisabeth",Miss.,female,11,4,2,347082,Dau.
+14,"Andersson, Mr. Anders Johan",Mr.,male,39,1,5,347082,Father
+611,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",Mrs.,female,39,1,5,347082,Mother
+268,"Persson, Mr. Ernst Ulrik",Mr.,male,25,1,0,347083,Sib.
+643,"Skoog, Miss. Margit Elizabeth",Miss.,female,2,3,2,347088,Dau.
+64,"Skoog, Master. Harald",Master.,male,4,3,2,347088,Son
+635,"Skoog, Miss. Mabel",Miss.,female,9,3,2,347088,Dau.
+820,"Skoog, Master. Karl Thorsten",Master.,male,10,3,2,347088,Son
+361,"Skoog, Mr. Wilhelm",Mr.,male,40,1,4,347088,Father
+168,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",Mrs.,female,45,1,4,347088,Mother
+1106,"Andersson, Miss. Ida Augusta Margareta",Miss.,female,38,4,2,347091,Sib.
+173,"Johnson, Miss. Eleanor Ileen",Miss.,female,1,1,1,347742,Dau.
+870,"Johnson, Master. Harold Theodor",Master.,male,4,1,1,347742,Son
+9,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",Mrs.,female,27,0,2,347742,Mother
+50,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",Mrs.,female,18,1,0,349237,Wif.
+354,"Arnold-Franchi, Mr. Josef",Mr.,male,25,1,0,349237,Hus.
+692,"Karun, Miss. Manca",Miss.,female,4,0,1,349256,Dau.
+932,"Karun, Mr. Franz",Mr.,male,39,0,1,349256,Father
+8,"Palsson, Master. Gosta Leonard",Master.,male,2,3,1,349909,Son
+375,"Palsson, Miss. Stina Viola",Miss.,female,3,3,1,349909,Dau.
+1281,"Palsson, Master. Paul Folke",Master.,male,6,3,1,349909,Son
+25,"Palsson, Miss. Torborg Danira",Miss.,female,8,3,1,349909,Dau.
+568,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",Mrs.,female,29,0,4,349909,Mother
+1251,"Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)",Mrs.,female,30,1,0,349910,Wif.
+606,"Lindell, Mr. Edvard Bengtsson",Mr.,male,36,1,0,349910,Hus.
+705,"Hansen, Mr. Henrik Juul",Mr.,male,26,1,0,350025,Sib.
+861,"Hansen, Mr. Claus Peter",Mr.,male,41,2,0,350026,Hus.
+1201,"Hansen, Mrs. Claus Peter (Jennie L Howard)",Mrs.,female,45,1,0,350026,Wif.
+193,"Andersen-Jensen, Miss. Carla Christine Nielsine",Miss.,female,19,1,0,350046,Sib.
+722,"Jensen, Mr. Svend Lauritz",Mr.,male,17,1,0,350048,Sib.
+176,"Klasen, Mr. Klas Albin",Mr.,male,18,1,1,350404,Son
+1155,"Klasen, Miss. Gertrud Emilia",Miss.,female,1,1,1,350405,Dau.
+1045,"Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)",Mrs.,female,36,0,2,350405,Mother
+394,"Newell, Miss. Marjorie",Miss.,female,23,1,0,35273,Dau.
+216,"Newell, Miss. Madeleine",Miss.,female,31,1,0,35273,Dau.
+660,"Newell, Mr. Arthur Webster",Mr.,male,58,0,2,35273,Father
+103,"White, Mr. Richard Frasar",Mr.,male,21,0,1,35281,Son
+125,"White, Mr. Percival Wayland",Mr.,male,54,0,1,35281,Father
+893,"Wilkes, Mrs. James (Ellen Needs)",Mrs.,female,47,1,0,363272,Sib.
+166,"Goldsmith, Master. Frank John William ""Frankie""",Master.,male,9,0,2,363291,Son
+329,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",Mrs.,female,31,1,1,363291,Mother
+549,"Goldsmith, Mr. Frank John",Mr.,male,33,1,1,363291,Father
+594,"Bourke, Miss. Mary",Miss.,female,12,0,2,364848,Dau.
+658,"Bourke, Mrs. John (Catherine)",Mrs.,female,32,1,1,364849,Mother
+189,"Bourke, Mr. John",Mr.,male,40,1,1,364849,Father
+331,"McCoy, Miss. Agnes",Miss.,female,NA,2,0,367226,Sib.
+1019,"McCoy, Miss. Alicia",Miss.,female,NA,2,0,367226,Sib.
+302,"McCoy, Mr. Bernard",Mr.,male,NA,2,0,367226,Sib.
+1013,"Kiernan, Mr. John",Mr.,male,NA,1,0,367227,Sib.
+215,"Kiernan, Mr. Philip",Mr.,male,NA,1,0,367229,Sib.
+242,"Murphy, Miss. Katherine ""Kate""",Miss.,female,NA,1,0,367230,Sib.
+613,"Murphy, Miss. Margaret Jane",Miss.,female,NA,1,0,367230,Sib.
+1292,"Bonnell, Miss. Caroline",Miss.,female,30,0,0,36928,
+319,"Wick, Miss. Mary Natalie",Miss.,female,31,0,2,36928,Dau.
+857,"Wick, Mrs. George Dennick (Mary Hitchcock)",Mrs.,female,45,1,1,36928,Mother
+1109,"Wick, Mr. George Dennick",Mr.,male,57,1,1,36928,Father
+497,"Eustis, Miss. Elizabeth Mussey",Miss.,female,54,1,0,36947,Sib.
+592,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",Mrs.,female,52,1,0,36947,Sib.
+231,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",Mrs.,female,35,1,0,36973,Wif.
+63,"Harris, Mr. Henry Birkhardt",Mr.,male,45,1,0,36973,Hus.
+1176,"Rosblom, Miss. Salli Helena",Miss.,female,2,1,1,370129,Dau.
+425,"Rosblom, Mr. Viktor Richard",Mr.,male,18,1,1,370129,Son
+255,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",Mrs.,female,41,0,2,370129,Mother
+187,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",Mrs.,female,NA,1,0,370365,Wif.
+365,"O'Brien, Mr. Thomas",Mr.,male,NA,1,0,370365,Hus.
+1165,"Lennon, Miss. Mary",Miss.,female,NA,1,0,370371,Sib.
+47,"Lennon, Mr. Denis",Mr.,male,NA,1,0,370371,Sib.
+110,"Moran, Miss. Bertha",Miss.,female,NA,1,0,371110,Sib.
+769,"Moran, Mr. Daniel J",Mr.,male,NA,1,0,371110,Sib.
+518,"Ryan, Mr. Patrick",Mr.,male,NA,0,0,371110,
+1017,"Cribb, Miss. Laura Alice",Miss.,female,17,0,1,371362,Dau.
+161,"Cribb, Mr. John Hatfield",Mr.,male,44,0,1,371362,Father
+432,"Thorneycroft, Mrs. Percival (Florence Kate White)",Mrs.,female,NA,1,0,376564,Wif.
+640,"Thorneycroft, Mr. Percival",Mr.,male,NA,1,0,376564,Hus.
+1275,"McNamee, Mrs. Neal (Eileen O'Leary)",Mrs.,female,19,1,0,376566,Wif.
+744,"McNamee, Mr. Neal",Mr.,male,24,1,0,376566,Hus.
+17,"Rice, Master. Eugene",Master.,male,2,4,1,382652,Son
+172,"Rice, Master. Arthur",Master.,male,4,4,1,382652,Son
+279,"Rice, Master. Eric",Master.,male,7,4,1,382652,Son
+788,"Rice, Master. George Hugh",Master.,male,8,4,1,382652,Son
+947,"Rice, Master. Albert",Master.,male,10,4,1,382652,Son
+886,"Rice, Mrs. William (Margaret Norton)",Mrs.,female,39,0,5,382652,Mother
+348,"Davison, Mrs. Thomas Henry (Mary E Finck)",Mrs.,female,NA,1,0,386525,Wif.
+950,"Davison, Mr. Thomas Henry",Mr.,male,NA,1,0,386525,Hus.
+1199,"Aks, Master. Philip Frank",Master.,male,0.83,0,1,392091,Son
+856,"Aks, Mrs. Sam (Leah Rosen)",Mrs.,female,18,0,1,392091,Mother
+752,"Moor, Master. Meier",Master.,male,6,0,1,392096,Son
+824,"Moor, Mrs. (Beila)",Mrs.,female,27,0,1,392096,Mother
+177,"Lefebre, Master. Henry Forbes",Master.,male,NA,3,1,4133,Son
+230,"Lefebre, Miss. Mathilde",Miss.,female,NA,3,1,4133,Dau.
+410,"Lefebre, Miss. Ida",Miss.,female,NA,3,1,4133,Dau.
+486,"Lefebre, Miss. Jeannie",Miss.,female,NA,3,1,4133,Dau.
+1024,"Lefebre, Mrs. Frank (Frances)",Mrs.,female,NA,0,4,4133,Mother
+114,"Jussila, Miss. Katriina",Miss.,female,20,1,0,4136,Sib.
+403,"Jussila, Miss. Mari Aina",Miss.,female,21,1,0,4137,Sib.
+198,"Olsen, Mr. Karl Siegwart Andreas",Mr.,male,42,0,1,4579,Father
+452,"Hagland, Mr. Ingvald Olai Olsen",Mr.,male,NA,1,0,65303,Sib.
+491,"Hagland, Mr. Konrad Mathias Reiersen",Mr.,male,NA,1,0,65304,Sib.
+41,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",Mrs.,female,40,1,0,7546,Sib.
+901,"Davies, Mr. John Samuel",Mr.,male,21,2,0,A/4 48871,Sib.
+566,"Davies, Mr. Alfred J",Mr.,male,24,2,0,A/4 48871,Sib.
+812,"Lester, Mr. James",Mr.,male,39,0,0,A/4 48871,
+1079,"Davies, Mr. Joseph",Mr.,male,17,2,0,A/4 48873,Sib.
+1,"Braund, Mr. Owen Harris",Mr.,male,22,1,0,A/5 21171,Sib.
+618,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",Mrs.,female,26,1,0,A/5. 3336,Wif.
+254,"Lobb, Mr. William Arthur",Mr.,male,30,1,0,A/5. 3336,Hus.
+133,"Robins, Mrs. Alexander A (Grace Charity Laury)",Mrs.,female,47,1,0,A/5. 3337,Wif.
+917,"Robins, Mr. Alexander A",Mr.,male,50,1,0,A/5. 3337,Hus.
+1084,"van Billiard, Master. Walter John",Master.,male,11.5,1,1,A/5. 851,Son
+1236,"van Billiard, Master. James William",Master.,male,15,1,1,A/5. 851,Son
+154,"van Billiard, Mr. Austin Blyler",Mr.,male,40.5,0,2,A/5. 851,Father
+913,"Olsen, Master. Artur Karl",Master.,male,9,0,1,C 17368,Son
+1246,"Dean, Miss. Elizabeth Gladys Millvina""""",Miss.,female,0.17,1,2,C.A. 2315,Dau.
+789,"Dean, Master. Bertram Vere",Master.,male,1,1,2,C.A. 2315,Son
+94,"Dean, Mr. Bertram Frank",Mr.,male,26,1,2,C.A. 2315,Father
+924,"Dean, Mrs. Bertram (Eva Georgetta Light)",Mrs.,female,33,1,2,C.A. 2315,Mother
+1284,"Abbott, Master. Eugene Joseph",Master.,male,13,0,2,C.A. 2673,Son
+747,"Abbott, Mr. Rossmore Edward",Mr.,male,16,1,1,C.A. 2673,Father
+280,"Abbott, Mrs. Stanton (Rosa Hunt)",Mrs.,female,35,1,1,C.A. 2673,Mother
+1211,"Jefferys, Mr. Ernest Wilfred",Mr.,male,22,2,0,C.A. 31029,Sib.
+923,"Jefferys, Mr. Clifford Thomas",Mr.,male,24,2,0,C.A. 31029,Sib.
+1230,"Denbury, Mr. Herbert",Mr.,male,25,0,0,C.A. 31029,
+238,"Collyer, Miss. Marjorie ""Lottie""",Miss.,female,8,0,2,C.A. 31921,Dau.
+638,"Collyer, Mr. Harvey",Mr.,male,31,1,1,C.A. 31921,Father
+802,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",Mrs.,female,31,1,1,C.A. 31921,Mother
+550,"Davies, Master. John Morgan Jr",Master.,male,8,1,1,C.A. 33112,Son
+1068,"Sincock, Miss. Maude",Miss.,female,20,0,0,C.A. 33112,
+146,"Nicholls, Mr. Joseph Charles",Mr.,male,19,1,1,C.A. 33112,Sib.
+1222,"Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) ",Mrs.,female,48,0,2,C.A. 33112,Mother
+1142,"West, Miss. Barbara J",Miss.,female,0.92,1,2,C.A. 34651,Dau.
+59,"West, Miss. Constance Mirium",Miss.,female,5,1,2,C.A. 34651,Dau.
+473,"West, Mrs. Edwy Arthur (Ada Mary Worth)",Mrs.,female,33,1,2,C.A. 34651,Mother
+451,"West, Mr. Edwy Arthur",Mr.,male,36,1,2,C.A. 34651,Father
+349,"Coutts, Master. William Loch ""William""",Master.,male,3,1,1,C.A. 37671,Son
+490,"Coutts, Master. Eden Leslie ""Neville""",Master.,male,9,1,1,C.A. 37671,Son
+941,"Coutts, Mrs. William (Winnie Minnie"" Treanor)""",Mrs.,female,36,0,2,C.A. 37671,Mother
+387,"Goodwin, Master. Sidney Leonard",Master.,male,1,5,2,CA 2144,Son
+481,"Goodwin, Master. Harold Victor",Master.,male,9,5,2,CA 2144,Son
+1032,"Goodwin, Miss. Jessie Allis",Miss.,female,10,5,2,CA 2144,Dau.
+60,"Goodwin, Master. William Frederick",Master.,male,11,5,2,CA 2144,Son
+72,"Goodwin, Miss. Lillian Amy",Miss.,female,16,5,2,CA 2144,Dau.
+684,"Goodwin, Mr. Charles Edward",Mr.,male,14,5,2,CA 2144,Son
+1031,"Goodwin, Mr. Charles Frederick",Mr.,male,40,1,6,CA 2144,Father
+679,"Goodwin, Mrs. Frederick (Augusta Tyler)",Mrs.,female,43,1,6,CA 2144,Mother
+1170,"Ware, Mr. John James",Mr.,male,30,1,0,CA 31352,Hus.
+1254,"Ware, Mrs. John James (Florence Louise Long)",Mrs.,female,31,0,0,CA 31352,Wif.
+1252,"Sage, Master. William Henry",Master.,male,14.5,8,2,CA. 2343,Son
+160,"Sage, Master. Thomas Henry",Master.,male,NA,8,2,CA. 2343,Son
+181,"Sage, Miss. Constance Gladys",Miss.,female,NA,8,2,CA. 2343,Dau.
+793,"Sage, Miss. Stella Anna",Miss.,female,NA,8,2,CA. 2343,Dau.
+864,"Sage, Miss. Dorothy Edith ""Dolly""",Miss.,female,NA,8,2,CA. 2343,Dau.
+1080,"Sage, Miss. Ada",Miss.,female,NA,8,2,CA. 2343,Dau.
+202,"Sage, Mr. Frederick",Mr.,male,NA,8,2,CA. 2343,Son
+325,"Sage, Mr. George John Jr",Mr.,male,NA,8,2,CA. 2343,Son
+847,"Sage, Mr. Douglas Bullen",Mr.,male,NA,8,2,CA. 2343,Son
+1234,"Sage, Mr. John George",Mr.,male,NA,1,9,CA. 2343,Father
+1257,"Sage, Mrs. John (Annie Bullen)",Mrs.,female,NA,1,9,CA. 2343,Mother
+984,"Davidson, Mrs. Thornton (Orian Hays)",Mrs.,female,27,1,2,F.C. 12750,Mother
+672,"Davidson, Mr. Thornton",Mr.,male,31,1,0,F.C. 12750,Father
+536,"Hart, Miss. Eva Miriam",Miss.,female,7,0,2,F.C.C. 13529,Dau.
+315,"Hart, Mr. Benjamin",Mr.,male,43,1,1,F.C.C. 13529,Father
+441,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",Mrs.,female,45,1,1,F.C.C. 13529,Mother
+875,"Abelson, Mrs. Samuel (Hannah Wizosky)",Mrs.,female,28,1,0,P/PP 3381,Wif.
+309,"Abelson, Mr. Samuel",Mr.,male,30,1,0,P/PP 3381,Hus.
+1048,"Bird, Miss. Ellen",Miss.,female,29,0,0,PC 17483,
+1006,"Straus, Mrs. Isidor (Rosalie Ida Blun)",Mrs.,female,63,1,0,PC 17483,Wif.
+973,"Straus, Mr. Isidor",Mr.,male,67,1,0,PC 17483,Hus.
+528,"Farthing, Mr. John",Mr.,male,NA,0,0,PC 17483,
+310,"Francatelli, Miss. Laura Mabel",Miss.,female,30,0,0,PC 17485,
+600,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",Mr.,male,49,1,0,PC 17485,Sib.
+119,"Baxter, Mr. Quigg Edmond",Mr.,male,24,0,1,PC 17558,Son
+1076,"Douglas, Mrs. Frederick Charles (Mary Helene Baxter)",Mrs.,female,27,1,1,PC 17558,Mother
+300,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",Mrs.,female,50,0,1,PC 17558,Mother
+196,"Lurette, Miss. Elise",Miss.,female,58,0,0,PC 17569,
+1208,"Spencer, Mr. William Augustus",Mr.,male,57,1,0,PC 17569,Hus.
+32,"Spencer, Mrs. William Augustus (Marie Eugenie)",Mrs.,female,57,1,0,PC 17569,Wif.
+682,"Hassab, Mr. Hammad",Mr.,male,27,0,0,PC 17572,
+646,"Harper, Mr. Henry Sleeper",Mr.,male,48,1,0,PC 17572,Hus.
+53,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",Mrs.,female,49,1,0,PC 17572,Wif.
+610,"Shutes, Miss. Elizabeth W",Miss.,female,40,0,0,PC 17582,
+333,"Graham, Mr. George Edward",Mr.,male,38,0,1,PC 17582,Sib.
+269,"Graham, Mrs. William Thompson (Edith Junkins)",Mrs.,female,58,0,1,PC 17582,Sib.
+854,"Lines, Miss. Mary Conover",Miss.,female,16,0,1,PC 17592,Dau.
+1283,"Lines, Mrs. Ernest H (Elizabeth Lindsey James)",Mrs.,female,51,0,1,PC 17592,Mother
+274,"Natsch, Mr. Charles H",Mr.,male,37,0,1,PC 17596,Father
+915,"Williams, Mr. Richard Norris II",Mr.,male,21,0,1,PC 17597,Son
+156,"Williams, Mr. Charles Duane",Mr.,male,51,0,1,PC 17597,Father
+2,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",Mrs.,female,38,1,0,PC 17599,Wif.
+1126,"Cumings, Mr. John Bradley",Mr.,male,39,1,0,PC 17599,Hus.
+514,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",Mrs.,female,54,1,0,PC 17603,Wif.
+912,"Rothschild, Mr. Martin",Mr.,male,55,1,0,PC 17603,Hus.
+35,"Meyer, Mr. Edgar Joseph",Mr.,male,28,1,0,PC 17604,Hus.
+376,"Meyer, Mrs. Edgar Joseph (Leila Saks)",Mrs.,female,28,1,0,PC 17604,Wif.
+956,"Ryerson, Master. John Borie",Master.,male,13,2,2,PC 17608,Son
+312,"Ryerson, Miss. Emily Borie",Miss.,female,18,2,2,PC 17608,Dau.
+743,"Ryerson, Miss. Susan Parker ""Suzette""",Miss.,female,21,2,2,PC 17608,Dau.
+951,"Chaudanson, Miss. Victorine",Miss.,female,36,0,0,PC 17608,
+1267,"Bowen, Miss. Grace Scott",Miss.,female,45,0,0,PC 17608,
+916,"Ryerson, Mrs. Arthur Larned (Emily Maria Borie)",Mrs.,female,48,1,3,PC 17608,Mother
+1034,"Ryerson, Mr. Arthur Larned",Mr.,male,61,1,3,PC 17608,Father
+661,"Frauenthal, Dr. Henry William",Mr.,male,50,2,0,PC 17611,Hus.
+335,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",Mrs.,female,50,1,0,PC 17611,Wif.
+259,"Ward, Miss. Anna",Miss.,female,35,0,0,PC 17755,
+738,"Lesurer, Mr. Gustave J",Mr.,male,35,0,0,PC 17755,
+680,"Cardeza, Mr. Thomas Drake Martinez",Mr.,male,36,0,1,PC 17755,Son
+1235,"Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)",Mrs.,female,58,0,1,PC 17755,Mother
+836,"Compton, Miss. Sara Rebecca",Miss.,female,39,1,1,PC 17756,Dau.
+1073,"Compton, Mr. Alexander Taylor Jr",Mr.,male,37,1,1,PC 17756,Son
+1071,"Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)",Mrs.,female,64,0,2,PC 17756,Mother
+717,"Endres, Miss. Caroline Louise",Miss.,female,38,0,0,PC 17757,
+381,"Bidois, Miss. Rosalie",Miss.,female,42,0,0,PC 17757,
+701,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",Mrs.,female,18,1,0,PC 17757,Wif.
+1094,"Astor, Col. John Jacob",Mr.,male,47,1,0,PC 17757,Hus.
+558,"Robbins, Mr. Victor",Mr.,male,NA,0,0,PC 17757,
+308,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",Mrs.,female,17,1,0,PC 17758,Wif.
+506,"Penasco y Castellana, Mr. Victor de Satode",Mr.,male,18,1,0,PC 17758,Hus.
+1306,"Oliva y Ocana, Dona. Fermina",Mrs.,female,39,0,0,PC 17758,
+98,"Greenfield, Mr. William Bertram",Mr.,male,23,0,1,PC 17759,Son
+1242,"Greenfield, Mrs. Leo David (Blanche Strouse)",Mrs.,female,45,0,1,PC 17759,Mother
+538,"LeRoy, Miss. Bertha",Miss.,female,30,0,0,PC 17761,
+1131,"Douglas, Mrs. Walter Donald (Mahala Dutton)",Mrs.,female,48,1,0,PC 17761,Wif.
+545,"Douglas, Mr. Walter Donald",Mr.,male,50,1,0,PC 17761,Hus.
+1009,"Sandstrom, Miss. Beatrice Irene",Miss.,female,1,1,1,PP 9549,Dau.
+11,"Sandstrom, Miss. Marguerite Rut",Miss.,female,4,1,1,PP 9549,Dau.
+395,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",Mrs.,female,24,0,2,PP 9549,Mother
+828,"Mallet, Master. Andre",Master.,male,1,0,2,S.C./PARIS 2079,Son
+1253,"Mallet, Mrs. Albert (Antoinette Magnin)",Mrs.,female,24,1,1,S.C./PARIS 2079,Mother
+818,"Mallet, Mr. Albert",Mr.,male,31,1,1,S.C./PARIS 2079,Father
+1078,"Phillips, Miss. Alice Frances Louisa",Miss.,female,21,0,1,S.O./P.P. 2,Dau.
+1194,"Phillips, Mr. Escott Robert",Mr.,male,43,0,1,S.O./P.P. 2,Father
+1104,"Deacon, Mr. Percy William",Mr.,male,17,0,0,S.O.C. 14879,
+386,"Davies, Mr. Charles Henry",Mr.,male,18,0,0,S.O.C. 14879,
+1244,"Dibden, Mr. William",Mr.,male,18,0,0,S.O.C. 14879,
+121,"Hickman, Mr. Stanley George",Mr.,male,21,2,0,S.O.C. 14879,Sib.
+73,"Hood, Mr. Ambrose Jr",Mr.,male,21,0,0,S.O.C. 14879,
+656,"Hickman, Mr. Leonard Mark",Mr.,male,24,2,0,S.O.C. 14879,Sib.
+666,"Hickman, Mr. Lewis",Mr.,male,32,2,0,S.O.C. 14879,Sib.
+1011,"Chapman, Mrs. John Henry (Sara Elizabeth Lawry)",Mrs.,female,29,1,0,SC/AH 29037,Wif.
+595,"Chapman, Mr. John Henry",Mr.,male,37,1,0,SC/AH 29037,Hus.
+433,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",Mrs.,female,42,1,0,SC/AH 3085,Wif.
+922,"Louch, Mr. Charles Alexander",Mr.,male,50,1,0,SC/AH 3085,Hus.
+1188,"Laroche, Miss. Louise",Miss.,female,1,1,2,SC/Paris 2123,Dau.
+44,"Laroche, Miss. Simonne Marie Anne Andree",Miss.,female,3,1,2,SC/Paris 2123,Dau.
+609,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",Mrs.,female,22,1,2,SC/Paris 2123,Mother
+686,"Laroche, Mr. Joseph Philippe Lemercier",Mr.,male,25,1,2,SC/Paris 2123,Father
+1112,"Duran y More, Miss. Florentina",Miss.,female,30,1,0,SC/PARIS 2148,Sib.
+867,"Duran y More, Miss. Asuncion",Miss.,female,27,1,0,SC/PARIS 2149,Sib.
+907,"del Carlo, Mrs. Sebastiano (Argenia Genovesi)",Mrs.,female,24,1,0,SC/PARIS 2167,Wif.
+362,"del Carlo, Mr. Sebastiano",Mr.,male,29,1,0,SC/PARIS 2167,Hus.
+1173,"Peacock, Master. Alfred Edward",Master.,male,0.75,1,1,SOTON/O.Q. 3101315,Son
+1301,"Peacock, Miss. Treasteall",Miss.,female,3,1,1,SOTON/O.Q. 3101315,Dau.
+1051,"Peacock, Mrs. Benjamin (Edith Nile)",Mrs.,female,26,0,2,SOTON/O.Q. 3101315,Mother
+665,"Lindqvist, Mr. Eino William",Mr.,male,20,1,0,STON/O 2. 3101285,Sib.
+910,"Ilmakangas, Miss. Ida Livija",Miss.,female,27,1,0,STON/O2. 3101270,Sib.
+730,"Ilmakangas, Miss. Pieta Sofia",Miss.,female,25,1,0,STON/O2. 3101271,Sib.
+143,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",Mrs.,female,24,1,0,STON/O2. 3101279,Wif.
+404,"Hakkarainen, Mr. Pekka Pietari",Mr.,male,28,1,0,STON/O2. 3101279,Hus.
+889,"Johnston, Miss. Catherine Helen ""Carrie""",Miss.,female,NA,1,2,W./C. 6607,Dau.
+1136,"Johnston, Master. William Arthur Willie""""",Master.,male,NA,1,2,W./C. 6607,Son
+784,"Johnston, Mr. Andrew G",Mr.,male,NA,1,2,W./C. 6607,Father
+925,"Johnston, Mrs. Andrew G (Elizabeth Lily"" Watson)""",Mrs.,female,NA,1,2,W./C. 6607,Mother
+148,"Ford, Miss. Robina Maggie ""Ruby""",Miss.,female,9,2,2,W./C. 6608,Dau.
+437,"Ford, Miss. Doolina Margaret ""Daisy""",Miss.,female,21,2,2,W./C. 6608,Dau.
+87,"Ford, Mr. William Neal",Mr.,male,16,1,3,W./C. 6608,Son
+1059,"Ford, Mr. Edward Watson",Mr.,male,18,2,2,W./C. 6608,Son
+737,"Ford, Mrs. Edward (Margaret Ann Watson)",Mrs.,female,48,1,3,W./C. 6608,Mother
+93,"Chaffee, Mr. Herbert Fuller",Mr.,male,46,1,0,W.E.P. 5734,Hus.
+906,"Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)",Mrs.,female,47,1,0,W.E.P. 5734,Wif.
+541,"Crosby, Miss. Harriet R",Miss.,female,36,0,2,WE/P 5735,Dau.
+746,"Crosby, Capt. Edward Gifford",Mr.,male,70,1,1,WE/P 5735,Father
