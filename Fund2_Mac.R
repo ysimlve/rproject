@@ -9,7 +9,7 @@ pkgList <- as.data.frame(installed.packages("/Library/Frameworks/R.framework/Ver
 pkgList_new <- as.data.frame(installed.packages(.libPaths()), stringsAsFactors = F)
 pkgList_new$Package
 pkgList$Package
-install.packages(pkgList$Package,repos=getOption("repos"), lib = .libPaths())
+install.packages("nycflights13",repos=getOption("repos"), lib = .libPaths())
 
 search()                                           #显示哪些库已加载并可使用
 if(!require(bench)) í
@@ -1362,10 +1362,155 @@ library(profvis)
 # Import->Tidy->Understand(Transform<->Visualise<->Model)->Communicate
 library(tidyverse)
 
-##################################1. Visualization##################################
-mpg
+##################################1. Visualization - ggplot2##################################
+# ggplot2
+# https://www.ggplot2-exts.org/
+# https://www.rstudio.com/resources/cheatsheets/#ggplot2
 
+?mpg
+str(mpg)
+
+# basic - ggplot(data = data, mapping = aes(x = x, y = y)) + geom_xxx()
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = class, size = displ)) + geom_point()
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + geom_point(color = "blue")
+
+# facet
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + geom_point() + facet_wrap(~ class, nrow = 2)
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + geom_point() + facet_grid(drv ~ cyl)
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + geom_point() + facet_grid(. ~ cyl)
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + geom_point() + facet_grid(cyl ~ .)
+
+# geometric object
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_point()
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_smooth(method = "loess")
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_smooth(method = "loess", aes(linetype = drv))
+#note: not every aesthetic works with every geom
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_point(aes(color = drv)) + geom_smooth(method = "loess", aes(linetype = drv))
+
+# group
+#Many geoms, like geom_smooth(), use a single geometric object to display multiple rows of data. For these geoms, you can set the group aesthetic to a categorical variable to draw multiple objects. 
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_smooth()
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_smooth(aes(group = drv))
+#In practice, ggplot2 will automatically group the data for these geoms whenever you map an aesthetic to a discrete variable (as in the linetype example)
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_smooth(aes(color = drv))
+
+# multiple geoms in the same plot - global mappings - different data
+ggplot(data = mpg, aes(x = displ, y = hwy)) + geom_point() + geom_smooth()
+ggplot(data = mpg, aes(x = displ, y = hwy)) +
+  geom_point(aes(color = class)) +
+  geom_smooth(data = filter(mpg, class == "subcompact"), se = FALSE, method = "loess")
+
+# statistical transformation
+str(diamonds)
+
+# bar chart
+#every geom has a default stat; and every stat has a default geom
+ggplot(data = diamonds, aes(x = cut)) + geom_bar(aes(fill = cut))  # y-axis, it displays count, but count is not a variable in diamonds! Where does count come from?
+ggplot(data = diamonds, aes(x = cut)) + stat_count()
+
+# change the default stat for bar chart
+demo <- tribble(
+  ~cut,         ~freq,
+  "Fair",       1610,
+  "Good",       4906,
+  "Very Good",  12082,
+  "Premium",    13791,
+  "Ideal",      21551
+)
+demo
+ggplot(data = demo, aes(x = cut, y = freq)) + geom_bar(stat = "identity")
+
+# override the default Computed variables of stat
+?stat_count
+ggplot(data = diamonds, aes(x = cut, y = ..prop.., group = 1)) + geom_bar()
+
+
+
+# Important Notes - The algorithm used to calculate new values for a graph is called a stat, short for statistical transformation
+#Many graphs, like scatterplots, plot the raw values of your dataset. Other graphs, like bar charts, calculate new values to plot:
+#1. bar charts, histograms, and frequency polygons bin your data and then plot bin counts, the number of points that fall in each bin.
+#2. smoothers fit a model to your data and then plot predictions from the model.
+#3. boxplots compute a robust summary of the distribution and then display a specially formatted box.
+
+#check which stat is used by a geom
+?geom_bar;   ?stat_count      #stat: count;  note: Computed variables
+?geom_point; ?stat_identity   #stat: identity
+
+# stat_summary()
+ggplot(data = diamonds) +
+  stat_summary(mapping = aes(x = cut, y = depth),
+               fun.ymin = min,
+               fun.ymax = max,
+               fun.y = median
+               )
+
+# Position adjustments
+ggplot(data = diamonds) + geom_bar(aes(x = cut, fill = cut))
+ggplot(data = diamonds) + geom_bar(aes(x = cut, fill = clarity))
+ggplot(data = diamonds) + geom_bar(aes(x = cut, fill = clarity), position = "fill")
+ggplot(data = diamonds) + geom_bar(aes(x = cut, fill = clarity), position = "dodge")
+
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + geom_point()
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + geom_point(position = "jitter") + geom_smooth(method = "lm") # aviod overplotting
+
+# coordinate systems
+#The default coordinate system is the Cartesian coordinate system
+ggplot(data = mpg, aes(x = class, y = hwy)) + geom_boxplot()
+
+ggplot(data = mpg, aes(x = class, y = hwy)) + geom_boxplot() + coord_flip()  # coord_flip() switches the x and y axes
+
+library(maps)
+nz <- map_data("nz")
+ggplot(data = nz, aes(long,lat,group = group)) + geom_polygon(fill = "white", colour = "black") + coord_quickmap()
+
+bar <- ggplot(data = diamonds) + 
+  geom_bar(
+    mapping = aes(x = cut, fill = cut),
+    show.legend = FALSE,
+    width = 1
+  ) +
+  theme(aspect.ratio = 1) +
+  labs(x = NULL, y = NULL)
+bar
+bar + coord_flip()
+bar + coord_polar()
+
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + geom_point(position = "jitter") + geom_abline() + coord_fixed()
+
+##################################2. Data Transformaztion - dplyr##################################
+library(nycflights13)   # data
+library(tidyverse)
+flights
+str(flights)
+View(flights)
+
+
+#NOTE of dplyr:
+#1. the result of any verb of dplyr return a new data frame
+#2. dplyr functions never modify their inputs
+
+# filter
+(jan1 <- filter(flights, month == 1, day == 1))   # print and save to a varible
+1 / 49 * 49 == 1    #False
+near(1/49*49,1)     #True
+
+filter(flights, month %in% c(1,2))
+
+# arrange
+arrange(flights, year, desc(month), day)
+
+# select
+select(flights, year, month, day)
+select(flights, -(year:hour))
+#starts_with(), ends_with(), contains(), matches(), num_range()
+rename(flights, year2 = year) #notes: rename() keeps all the variables that aren’t explicitly mentioned
+select(flights, month:day, everything())   # move some columns in front of a data frame
+
+# mutate
+flights_sml <- select(flights, )
+
+
+
 
 ##################################%%%%%%%%%%%%%%%%%%%%%R Package(Hadley)%%%%%%%%%%%%%%%%%%%%%########################################################
 #####Basic structure of a package:
