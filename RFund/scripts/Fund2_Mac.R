@@ -1578,6 +1578,7 @@ Total3 <- base*(1+I/12)^(n*12)       #按月复利结算, 20年后可获得的�
 #########A.数值型变量
 x <- mtcars$mpg 
 #######A.1. 五数概括
+library(ggplot2)
 summary(x)      
 ggplot(data = data.frame(x = x), aes(x = x)) + geom_density() + geom_vline(aes(xintercept = mean(x)),colour = "red") 
 #######A.2. 偏度(skewness) - 统计数据分布偏斜方向和程度的度量，是统计数据分布非对称程度的数字特征值
