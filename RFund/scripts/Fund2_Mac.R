@@ -5964,9 +5964,16 @@ J = yi*ln(yi-y_hati) + (1-yi)*ln(yi)
 
 
 
+##################################%%%%%%%%%%%%%%%%%%%%%SparkR%%%%%%%%%%%%%%%%%%%%%######################################################
+# https://spark.apache.org/docs/latest/sparkr.html#sparkdataframe
 
+getwd()
+install.packages("rJava"); install.packages("SparkR")
+library(rJava)
+system("java -version")
 
-
+library(SparkR)
+sc <- sparkR.session()
 
 
 

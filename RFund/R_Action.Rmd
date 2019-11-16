@@ -1,0 +1,38 @@
+---
+title: "R Action"
+output:
+  html_document:
+    fig_height: 4.5
+    fig_width: 7.5
+    theme: cosmo
+    highlight: tango
+    number_sections: true
+    fig_caption: true
+    toc: true
+    code_folding: show
+---
+
+# Get Started
+* **What's CRAN?** Comprehensive R Archive Network - is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R.
+* **No Complie** R is a dynamic programming language, which means R automatically interprets the code as you run it.
+* **Useful system code**
+```{r results='hide'}
+version
+sessionInfo()
+getwd()
+options()
+options("encoding")
+options(stringsAsFactors = FALSE)
+options(digits = 5)
+options(warn=-1)
+Sys.setlocale(category = "LC_CTYPE", locale = "Chinese")   #中文显示
+```
+
+```{r echo=TRUE, results='hide'}
+# library()
+# installed.packages(.libPaths())
+# install.packages(pkgs = "tidyverse", repos = getOption("repos"), lib = .libPaths())
+# packageDescription("tidyverse")
+# update.packages("tidyverse")
+```
+
