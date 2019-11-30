@@ -2,7 +2,7 @@
 title: "ANZ Chengdu Data Science Competition"
 output:
   html_document:
-    code_folding: show
+    code_folding: hide
     fig_caption: yes
     fig_height: 4.5
     fig_width: 7.5
@@ -32,7 +32,7 @@ Process mining is one hot top which has attracted intense analysis in recent yea
 
 # Preparations {.tabset .tabset-fade .tabset-pills .tabset-funs}
 ## Load libraries
-```{r message=FALSE, warning=FALSE, results='hide'}
+```{r message=FALSE, warning=FALSE, include=FALSE, results='hide'}
 library(bupaR)
 library(edeaR)
 library(processmapR)
@@ -49,6 +49,7 @@ library(petrinetR)
 library(knitr)
 library(Rmisc)
 library(plotly)
+library(processanimateR)
 ```
 
 ## Load data
@@ -235,14 +236,31 @@ events %>% filter_activity(c("A_SUBMITTED","A_PARTLYSUBMITTED","A_DECLINED","A_P
 ```
 From the above diagram we can know: <br>
 * A_PARTLYSUBMITTED is redundant of A_SUBMITTED <br>
-* A_ACTIVATED, A_APPROVED, A_REGISTERED are redundant <br>
+* A_ACTIVATED, A_APPROVED, A_REGISTERED are redundant and messy, all of them happened 2246 times, but the sequence is confused following by A_FINALIZED <br>
 * Total cases (13087) = 2807(A_CANCELLED) + 2246(A_Succeed) + 7635(A_DECLINED) + 69(A_PREACCEPTED) + 3(A_ACCEPTED) + 327(A_FINALIZED) <br>
-* Identified the standard case flow for approved Application is <br>
-![an image caption Source: Calculation of dependency.](image/scf_approve.png)
+```{r message=FALSE, warning=FALSE}
+final_status2 <- c("A_CANCELLED","A_Succeed","A_DECLINED")
+fincal_count <- c(2807,2246,7635)
+wf_data2 <- data.frame(final_status2,fincal_count)
+wf_data2 %>% 
+  ggplot(aes(x = final_status2, y = fincal_count)) + geom_bar(fill = anz_color1, position = "dodge", stat = "identity") +
+  labs(x = "Final Status", y = "Count", title = "Final status of cases") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
 
+We can deep dive into the process step by step (application level activities) to get more detialed information, e.g. the following diagram shows processes between A_PARTLYSUBMITTED and A_PREACCEPTED
+```{r message=FALSE, warning=FALSE}
+se_process_1 <- events %>% filter_trim(start_activities = "A_PARTLYSUBMITTED",end_activities = "A_PREACCEPTED") %>% process_map()
+se_process_2 <- events %>% filter_trim(start_activities = "A_PREACCEPTED",end_activities = "A_ACCEPTED") %>% process_map()
+se_process_3 <- events %>% filter_trim(start_activities = "A_ACCEPTED",end_activities = "A_FINALIZED") %>% process_map()
+se_process_4 <- events %>% filter_trim(start_activities = "A_FINALIZED",end_activities = c("A_ACTIVATED")) %>% process_map()
+se_process_5 <- events %>% filter_trim(start_activities = "A_FINALIZED",end_activities = c("A_APPROVED")) %>% process_map()
+se_process_6 <- events %>% filter_trim(start_activities = "A_FINALIZED",end_activities = c("A_REGISTERED")) %>% process_map()
+se_process_1
+```
 
-
-Then, we can simplify the process map as below:
+According to the conclusion above, we can simplify the process map as below by collapsing the reduntant activities:
 ```{r message=FALSE, warning=FALSE}
 events %>% filter_activity(c("A_SUBMITTED","A_PARTLYSUBMITTED","A_DECLINED","A_PREACCEPTED","A_ACCEPTED","A_FINALIZED","A_CANCELLED","A_ACTIVATED","A_APPROVED","A_REGISTERED")) %>%
   act_collapse(A_Success = c("A_ACTIVATED","A_APPROVED","A_REGISTERED"),
@@ -256,6 +274,9 @@ events %>% filter_activity(c("A_SUBMITTED","A_PARTLYSUBMITTED","A_DECLINED","A_P
   precedence_matrix(type = "absolute") %>% plot()
 ```
 
+Accordingly, I have the following diagram to simplely show the standard process flow at application level and the number of cases at each phase:
+![an image caption Source: What's Process Mining?](image/w3.png)
+
 ## Declined case 
 Now, I will deep dive into the declined cases, to discover the reasons of decline. From the above chart, we can know 5719 out of 7635 cases are declined immediately right after submission online. <br>
 Let's check the other declined cases:
@@ -268,6 +289,7 @@ events %>%
 events_declined %>% process_map(type = frequency())
 ```
 From the above chart, we know: <br>
+* 3429 was declined right after application submit <br>
 * 2234 was declined after 'W_Afhandelen leads' (Following up on incomplete initial submissions) <br>
 * 25 was declined after 'A_ACCEPTED' <br>
 * 57 was declined after 'W_Beoordelen fraude' (Investigating suspect fraud cases) <br>
@@ -275,6 +297,9 @@ From the above chart, we know: <br>
 * 86 was declined after W_Nabellen incomplete dossiers (Seeking additional information during assessment phase) <br>
 * 668 was declined after W_Valideren aanvraag (Assessing the application) <br>
 * 48 was declined after W_Nabellen offertes (Follow up after transmitting offers to qualified applicants) <br>
+
+Illustrate as:
+![an image caption Source: What's Process Mining?](image/w4.png)
 
 In General, we can get the following chart to clearly show the applications final status - only 2246 out of 13087 got succeed.
 ```{r message=FALSE, warning=FALSE}
@@ -296,8 +321,12 @@ p <- plot_ly(
 p
 ```
 
-Also we can generate the following diagram of key process steps and distribution of application volume
-![an image caption Source: Calculation of dependency.](image/w2.png)
+# Conclusions
+Through comprehensive analysis of the event log, we managed to convert a data set containing 262,200 events and 13,087 cases into a clearly interpretable, end-to-end workflow for a loan and overdraft approvals process. I suggest the improvements: <br>
+* 1. Simplify the process by removing reduntant / mixed activities, e.g. A_SUBMITTED / A_PARTLYSUBMITTED; A_APPROVED / A_REGISTERED / A_ACTIVATED; <br>
+* 2. Totally there are 4366 traces, from the trace explorer, 50% of the traces are covered by 12 types, and longest one which contains only 14 activities. There are space to optimize the process. <br>
+* 3. Refine the automation assessment process after submitting application online; Totally 58% cases are declined, 44% are directly declined. <br>
+* 4. Duration_in_days of declined application is 2.0 days, however the duration_in_days of succeed and cancelled application is 16.7/18.5 days.
 
 # Heuristics Miner
 **Heuristics Miner** is an algorithm that acts on the Directly-Follows Graph, providing way to handle with noise and to find common constructs (dependency between two activities, AND). The output of the Heuristics Miner is an Heuristics Net, so an object that contains the activities and the relationships between them.  <br>
@@ -319,12 +348,6 @@ Causal graph / Heuristics net
 causal_net(events) %>% render_causal_net()
 ```
 
-# Conclusions
-Through comprehensive analysis of the event log, we managed to convert a data set containing 262,200 events and 13,087 cases into a clearly interpretable, end-to-end workflow for a loan and overdraft approvals process. I suggest the improvements: <br>
-* 1. Simplify the process by removing reduntant activities, e.g. A_SUBMITTED / A_PARTLYSUBMITTED; A_APPROVED / A_REGISTERED / A_ACTIVATED; O_PREPARED / O_SENT; <br>
-* 2. Totally there are 4366 traces, from the trace explorer, 50% of the traces are covered by 12 types, and longest one which contains only 14 activities. There are space to optimize the process. <br>
-* 3. Refine the automation assessment process after submitting application online; Totally 58% cases are declined, 44% are directly declined. <br>
-* 4. Duration_in_days of declined application is 2.0 days, however the duration_in_days of succeed and cancelled application is 16.7/18.5 days.
 
 
 
