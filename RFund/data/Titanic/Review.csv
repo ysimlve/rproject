@@ -1,0 +1,332 @@
+PassengerId,Survived,Is_Pred,FamilyRole,Ticket,Age,Pclass,Sex,NameTitle,Total,TicketType
+367,1,Actual,Wif.,110813,60,1,female,Mrs.,2,1
+1128,0,Predict,Hus.,110813,64,1,male,Mr.,2,1
+1260,1,Predict,Mother,112378,45,1,female,Mrs.,2,1
+1294,1,Predict,Dau.,112378,22,1,female,Miss.,2,1
+1197,1,Predict,Mother,112901,64,1,female,Mrs.,3,1
+378,0,Actual,Son,113503,27,1,male,Mr.,3,1
+1110,1,Predict,Mother,113503,50,1,female,Mrs.,3,1
+1299,0,Predict,Father,113503,50,1,male,Mr.,3,1
+55,0,Actual,Father,113509,65,1,male,Mr.,2,1
+918,1,Predict,Dau.,113509,22,1,female,Miss.,2,1
+749,0,Actual,Hus.,113773,19,1,male,Mr.,2,1
+1074,1,Predict,Wif.,113773,18,1,female,Mrs.,2,1
+298,0,Actual,Dau.,113781,2,1,female,Miss.,4,1
+306,1,Actual,Son,113781,1,1,male,Master.,4,1
+499,0,Actual,Mother,113781,25,1,female,Mrs.,4,1
+1198,0,Predict,Father,113781,30,1,male,Mr.,4,1
+622,1,Actual,Hus.,11753,42,1,male,Mr.,2,1
+936,1,Predict,Wif.,11753,45,1,female,Mrs.,2,1
+371,1,Actual,Hus.,11765,25,1,male,Mr.,2,1
+1256,1,Predict,Wif.,11765,25,1,female,Mrs.,2,1
+880,1,Actual,Mother,11767,56,1,female,Mrs.,2,1
+1042,1,Predict,Dau.,11767,23,1,female,Mrs.,2,1
+572,1,Actual,Sib.,11769,53,1,female,Mrs.,3,1
+1248,1,Predict,Sib.,11769,59,1,female,Mrs.,3,1
+969,1,Predict,Sib.,11770,55,1,female,Mrs.,3,1
+992,1,Predict,Wif.,11778,43,1,female,Mrs.,2,1
+1069,0,Predict,Hus.,11778,54,1,male,Mr.,2,1
+821,1,Actual,Mother,12749,52,1,female,Mrs.,3,1
+1200,0,Predict,Father,12749,55,1,male,Mr.,3,1
+926,1,Predict,Hus.,13236,30,1,male,Mr.,2,1
+1014,1,Predict,Wif.,13236,35,1,female,Mrs.,2,1
+1144,0,Predict,Hus.,13508,27,1,male,Mr.,2,1
+1164,1,Predict,Wif.,13508,26,1,female,Mrs.,2,1
+588,1,Actual,Father,13567,60,1,male,Mr.,3,1
+1289,1,Predict,Mother,13567,48,1,female,Mrs.,3,1
+942,1,Predict,Hus.,13695,24,1,male,Mr.,2,1
+1287,1,Predict,Wif.,13695,18,1,female,Mrs.,2,1
+320,1,Actual,Mother,16966,40,1,female,Mrs.,3,1
+1088,1,Predict,Son,16966,6,1,male,Master.,3,1
+1134,0,Predict,Father,16966,45,1,male,Mr.,3,1
+458,1,Actual,Wif.,17464,40,1,female,Mrs.,2,1
+1137,0,Predict,Hus.,17464,41,1,male,Mr.,2,1
+1296,0,Predict,Sib.,17765,43,1,male,Mr.,2,1
+742,0,Actual,Hus.,19877,36,1,male,Mr.,2,1
+988,1,Predict,Wif.,19877,76,1,female,Mrs.,2,1
+246,0,Actual,Hus.,19928,44,1,male,Mr.,3,1
+413,1,Actual,Sib.,19928,33,1,female,Miss.,2,1
+1303,1,Predict,Wif.,19928,37,1,female,Mrs.,2,1
+28,0,Actual,Son,19950,19,1,male,Mr.,6,1
+89,1,Actual,Dau.,19950,23,1,female,Miss.,6,1
+342,1,Actual,Dau.,19950,24,1,female,Miss.,6,1
+439,0,Actual,Father,19950,64,1,male,Mr.,6,1
+945,1,Predict,Dau.,19950,28,1,female,Miss.,6,1
+961,1,Predict,Mother,19950,60,1,female,Mrs.,6,1
+427,1,Actual,Wif.,2003,28,2,female,Mrs.,2,2
+1220,0,Predict,Hus.,2003,29,2,male,Mr.,2,2
+904,1,Predict,Wif.,21228,23,1,female,Mrs.,2,2
+1179,0,Predict,Hus.,21228,24,1,male,Mr.,2,2
+616,1,Actual,Dau.,220845,24,2,female,Miss.,4,2
+755,1,Actual,Mother,220845,48,2,female,Mrs.,4,2
+1245,0,Predict,Father,220845,49,2,male,Mr.,4,2
+1277,1,Predict,Dau.,220845,24,2,female,Miss.,4,2
+519,1,Actual,Wif.,226875,36,2,female,Mrs.,2,2
+1082,0,Predict,Hus.,226875,34,2,male,Mr.,2,2
+134,1,Actual,Wif.,228414,29,2,female,Mrs.,2,2
+993,0,Predict,Hus.,228414,27,2,male,Mr.,2,2
+184,1,Actual,Son,230136,1,2,male,Master.,4,2
+619,1,Actual,Dau.,230136,4,2,female,Miss.,4,2
+1070,1,Predict,Mother,230136,36,2,female,Mrs.,4,2
+1218,1,Predict,Dau.,230136,12,2,female,Miss.,4,2
+729,0,Actual,Hus.,236853,25,2,male,Mr.,2,2
+1167,1,Predict,Wif.,236853,20,2,female,Miss.,2,2
+581,1,Actual,Dau.,237789,25,2,female,Miss.,3,2
+1133,1,Predict,Mother,237789,45,2,female,Mrs.,3,2
+905,0,Predict,Hus.,24065,63,2,male,Mr.,2,2
+1105,1,Predict,Wif.,24065,60,2,female,Mrs.,2,2
+690,1,Actual,Dau.,24160,15,1,female,Miss.,2,2
+780,1,Actual,Mother,24160,43,1,female,Mrs.,2,2
+79,1,Actual,Son,248738,1,2,male,Master.,3,2
+324,1,Actual,Mother,248738,22,2,female,Mrs.,3,2
+899,1,Predict,Father,248738,26,2,male,Mr.,3,2
+1130,1,Predict,Dau.,250650,18,2,female,Miss.,3,2
+1025,0,Predict,Father,2621,35,3,male,Mr.,2,2
+804,1,Actual,Son,2625,1,3,male,Master.,2,2
+996,1,Predict,Mother,2625,16,3,female,Mrs.,3,2
+507,1,Actual,Mother,26360,33,2,female,Mrs.,3,2
+531,1,Actual,Dau.,26360,2,2,female,Miss.,3,2
+1095,1,Predict,Dau.,26360,8,2,female,Miss.,3,2
+256,1,Actual,Mother,2650,29,3,female,Mrs.,3,2
+1053,1,Predict,Son,2650,7,3,male,Master.,3,2
+1175,1,Predict,Dau.,2650,9,3,female,Miss.,3,2
+382,1,Actual,Dau.,2653,1,3,female,Miss.,3,2
+623,1,Actual,Father,2653,20,3,male,Mr.,3,2
+1225,1,Predict,Mother,2653,19,3,female,Mrs.,3,2
+977,0,Predict,Hus.,2660,29,3,male,Mr.,2,2
+1141,1,Predict,Wif.,2660,28,3,female,Mrs.,2,2
+66,1,Actual,Son,2661,5,3,male,Master.,3,2
+710,1,Actual,Son,2661,5,3,male,Master.,3,2
+1117,1,Predict,Mother,2661,34,3,female,Mrs.,3,2
+49,0,Actual,Sib.,2662,28,3,male,Mr.,3,2
+921,0,Predict,Sib.,2662,28,3,male,Mr.,3,2
+1189,0,Predict,Sib.,2662,28,3,male,Mr.,3,2
+129,1,Actual,Dau.,2668,8,3,female,Miss.,3,2
+534,1,Actual,Mother,2668,34,3,female,Mrs.,3,2
+1309,1,Predict,Son,2668,5,3,male,Master.,3,2
+237,0,Actual,Hus.,26707,44,2,male,Mr.,2,2
+1140,1,Predict,Wif.,26707,29,2,female,Mrs.,2,2
+1229,0,Predict,Father,2675,39,3,male,Mr.,3,2
+141,0,Actual,Mother,2678,34,3,female,Mrs.,3,2
+853,0,Actual,Dau.,2678,9,3,female,Miss.,3,2
+972,0,Predict,Son,2678,6,3,male,Master.,3,2
+74,0,Actual,Sib.,2680,26,3,male,Mr.,2,2
+1007,0,Predict,Sib.,2680,18,3,male,Mr.,2,2
+579,0,Actual,Wif.,2689,28,3,female,Mrs.,2,2
+1258,0,Predict,Hus.,2689,29,3,male,Mr.,2,2
+1262,0,Predict,Sib.,28133,21,2,male,Mr.,2,2
+417,1,Actual,Mother,28220,34,2,female,Mrs.,3,2
+1086,1,Predict,Dau.,28220,8,2,male,Master.,3,2
+1139,0,Predict,Father,28220,42,2,male,Mr.,3,2
+406,0,Actual,Sib.,28664,34,2,male,Mr.,2,2
+1293,0,Predict,Sib.,28664,38,2,male,Mr.,2,2
+1298,0,Predict,Sib.,28666,23,2,male,Mr.,2,2
+751,1,Actual,Dau.,29103,4,2,female,Miss.,3,2
+981,1,Predict,Son,29103,2,2,male,Master.,3,2
+1154,1,Predict,Mother,29103,29,2,female,Mrs.,3,2
+775,1,Actual,Mother,29105,54,2,female,Mrs.,5,2
+944,1,Predict,Dau.,29105,20,2,female,Miss.,4,2
+54,1,Actual,Wif.,2926,29,2,female,Mrs.,2,2
+1169,0,Predict,Hus.,2926,40,2,male,Mr.,2,2
+671,1,Actual,Mother,29750,40,2,female,Mrs.,3,2
+685,0,Actual,Father,29750,60,2,male,Mr.,3,2
+1067,1,Predict,Dau.,29750,15,2,female,Miss.,3,2
+1124,0,Predict,Sib.,3101266,21,3,male,Mr.,2,3
+51,0,Actual,Son,3101295,7,3,male,Master.,6,3
+165,0,Actual,Son,3101295,1,3,male,Master.,6,3
+267,0,Actual,Son,3101295,16,3,male,Mr.,6,3
+639,0,Actual,Mother,3101295,41,3,female,Mrs.,6,3
+687,0,Actual,Son,3101295,14,3,male,Mr.,6,3
+825,0,Actual,Son,3101295,2,3,male,Master.,6,3
+480,1,Actual,Dau.,3101298,2,3,female,Miss.,2,3
+896,1,Predict,Mother,3101298,22,3,female,Mrs.,3,3
+1268,0,Predict,Wif.,315152,22,3,female,Miss.,3,3
+185,1,Actual,Dau.,315153,4,3,female,Miss.,3,3
+1057,0,Predict,Mother,315153,26,3,female,Mrs.,3,3
+1286,0,Predict,Father,315153,29,3,male,Mr.,5,3
+446,1,Actual,Son,33638,4,1,male,Master.,3,3
+1185,0,Predict,Father,33638,53,1,male,Mr.,3,3
+1266,1,Predict,Mother,33638,54,1,female,Mrs.,3,3
+560,1,Actual,Wif.,345572,36,3,female,Mrs.,2,3
+1152,0,Predict,Hus.,345572,36,3,male,Mr.,2,3
+19,0,Actual,Wif.,345763,31,3,female,Mrs.,2,3
+1037,0,Predict,Hus.,345763,31,3,male,Mr.,4,3
+982,0,Predict,Wif.,347072,22,3,female,Mrs.,2,3
+1064,0,Predict,Hus.,347072,23,3,male,Mr.,2,3
+26,1,Actual,Mother,347077,38,3,female,Mrs.,7,3
+183,0,Actual,Son,347077,9,3,male,Master.,7,3
+234,1,Actual,Dau.,347077,5,3,female,Miss.,7,3
+262,1,Actual,Son,347077,3,3,male,Master.,7,3
+1046,0,Predict,Son,347077,13,3,male,Master.,7,3
+1066,0,Predict,Father,347077,40,3,male,Mr.,7,3
+1271,1,Predict,Son,347077,5,3,male,Master.,7,3
+424,0,Actual,Mother,347080,28,3,female,Mrs.,3,3
+617,0,Actual,Father,347080,34,3,male,Mr.,3,3
+1093,0,Predict,Son,347080,1,3,male,Master.,3,3
+1106,0,Predict,Sib.,347091,38,3,female,Miss.,7,3
+692,1,Actual,Dau.,349256,4,3,female,Miss.,2,3
+932,1,Predict,Father,349256,39,3,male,Mr.,2,3
+8,0,Actual,Son,349909,2,3,male,Master.,5,3
+25,0,Actual,Dau.,349909,8,3,female,Miss.,5,3
+375,0,Actual,Dau.,349909,3,3,female,Miss.,5,3
+568,0,Actual,Mother,349909,29,3,female,Mrs.,5,3
+1281,0,Predict,Son,349909,6,3,male,Master.,5,3
+606,0,Actual,Hus.,349910,36,3,male,Mr.,2,3
+1251,0,Predict,Wif.,349910,30,3,female,Mrs.,2,3
+861,0,Actual,Hus.,350026,41,3,male,Mr.,3,3
+1201,0,Predict,Wif.,350026,45,3,female,Mrs.,2,3
+1045,0,Predict,Mother,350405,36,3,female,Mrs.,3,3
+1155,0,Predict,Dau.,350405,1,3,female,Miss.,3,3
+893,0,Predict,Sib.,363272,47,3,female,Mrs.,2,3
+302,1,Actual,Sib.,367226,28,3,male,Mr.,3,3
+331,1,Actual,Sib.,367226,23,3,female,Miss.,3,3
+1019,1,Predict,Sib.,367226,23,3,female,Miss.,3,3
+1013,0,Predict,Sib.,367227,28,3,male,Mr.,2,3
+319,1,Actual,Dau.,36928,31,1,female,Miss.,3,3
+857,1,Actual,Mother,36928,45,1,female,Mrs.,3,3
+1109,0,Predict,Father,36928,57,1,male,Mr.,3,3
+255,0,Actual,Mother,370129,41,3,female,Mrs.,3,3
+425,0,Actual,Son,370129,18,3,male,Mr.,3,3
+1176,0,Predict,Dau.,370129,2,3,female,Miss.,3,3
+47,0,Actual,Sib.,370371,28,3,male,Mr.,2,3
+1165,1,Predict,Sib.,370371,23,3,female,Miss.,2,3
+161,0,Actual,Father,371362,44,3,male,Mr.,2,3
+1017,0,Predict,Dau.,371362,17,3,female,Miss.,2,3
+744,0,Actual,Hus.,376566,24,3,male,Mr.,2,3
+1275,0,Predict,Wif.,376566,19,3,female,Mrs.,2,3
+17,0,Actual,Son,382652,2,3,male,Master.,6,3
+172,0,Actual,Son,382652,4,3,male,Master.,6,3
+279,0,Actual,Son,382652,7,3,male,Master.,6,3
+788,0,Actual,Son,382652,8,3,male,Master.,6,3
+886,0,Actual,Mother,382652,39,3,female,Mrs.,6,3
+947,0,Predict,Son,382652,10,3,male,Master.,6,3
+348,1,Actual,Wif.,386525,28,3,female,Mrs.,2,3
+950,0,Predict,Hus.,386525,29,3,male,Mr.,2,3
+856,1,Actual,Mother,392091,18,3,female,Mrs.,2,3
+1199,1,Predict,Son,392091,1,3,male,Master.,2,3
+177,0,Actual,Son,4133,5,3,male,Master.,5,4
+230,0,Actual,Dau.,4133,8,3,female,Miss.,5,4
+410,0,Actual,Dau.,4133,8,3,female,Miss.,5,4
+486,0,Actual,Dau.,4133,8,3,female,Miss.,5,4
+1024,0,Predict,Mother,4133,34,3,female,Mrs.,5,4
+566,0,Actual,Sib.,A/4 48871,24,3,male,Mr.,3,A
+901,0,Predict,Sib.,A/4 48871,21,3,male,Mr.,3,A
+1079,0,Predict,Sib.,A/4 48873,17,3,male,Mr.,3,A
+133,0,Actual,Wif.,A/5. 3337,47,3,female,Mrs.,2,A
+917,0,Predict,Hus.,A/5. 3337,50,3,male,Mr.,2,A
+154,0,Actual,Father,A/5. 851,40,3,male,Mr.,3,A
+1084,1,Predict,Son,A/5. 851,12,3,male,Master.,3,A
+1236,0,Predict,Son,A/5. 851,5,3,male,Master.,3,A
+913,1,Predict,Son,C 17368,9,3,male,Master.,2,C
+94,0,Actual,Father,C.A. 2315,26,3,male,Mr.,4,C
+789,1,Actual,Son,C.A. 2315,1,3,male,Master.,4,C
+924,1,Predict,Mother,C.A. 2315,33,3,female,Mrs.,4,C
+1246,0,Predict,Dau.,C.A. 2315,1,3,female,Miss.,4,C
+280,1,Actual,Mother,C.A. 2673,35,3,female,Mrs.,3,C
+747,0,Actual,Father,C.A. 2673,16,3,male,Mr.,3,C
+1284,1,Predict,Son,C.A. 2673,13,3,male,Master.,3,C
+923,0,Predict,Sib.,C.A. 31029,24,2,male,Mr.,3,C
+1211,0,Predict,Sib.,C.A. 31029,22,2,male,Mr.,3,C
+146,0,Actual,Sib.,C.A. 33112,19,2,male,Mr.,3,C
+550,1,Actual,Son,C.A. 33112,8,2,male,Master.,3,C
+1222,1,Predict,Mother,C.A. 33112,48,2,female,Mrs.,3,C
+59,1,Actual,Dau.,C.A. 34651,5,2,female,Miss.,4,C
+451,0,Actual,Father,C.A. 34651,36,2,male,Mr.,4,C
+473,1,Actual,Mother,C.A. 34651,33,2,female,Mrs.,4,C
+1142,1,Predict,Dau.,C.A. 34651,1,2,female,Miss.,4,C
+349,1,Actual,Son,C.A. 37671,3,3,male,Master.,3,C
+490,1,Actual,Son,C.A. 37671,9,3,male,Master.,3,C
+941,1,Predict,Mother,C.A. 37671,36,3,female,Mrs.,3,C
+60,0,Actual,Son,CA 2144,11,3,male,Master.,8,C
+72,0,Actual,Dau.,CA 2144,16,3,female,Miss.,8,C
+387,0,Actual,Son,CA 2144,1,3,male,Master.,8,C
+481,0,Actual,Son,CA 2144,9,3,male,Master.,8,C
+679,0,Actual,Mother,CA 2144,43,3,female,Mrs.,8,C
+684,0,Actual,Son,CA 2144,14,3,male,Mr.,8,C
+1031,0,Predict,Father,CA 2144,40,3,male,Mr.,8,C
+1032,0,Predict,Dau.,CA 2144,10,3,female,Miss.,8,C
+1170,0,Predict,Hus.,CA 31352,30,2,male,Mr.,2,C
+1254,1,Predict,Wif.,CA 31352,31,2,female,Mrs.,1,C
+160,0,Actual,Son,CA. 2343,5,3,male,Master.,11,C
+181,0,Actual,Dau.,CA. 2343,8,3,female,Miss.,11,C
+202,0,Actual,Son,CA. 2343,13,3,male,Mr.,11,C
+325,0,Actual,Son,CA. 2343,13,3,male,Mr.,11,C
+793,0,Actual,Dau.,CA. 2343,8,3,female,Miss.,11,C
+847,0,Actual,Son,CA. 2343,13,3,male,Mr.,11,C
+864,0,Actual,Dau.,CA. 2343,8,3,female,Miss.,11,C
+1080,0,Predict,Dau.,CA. 2343,8,3,female,Miss.,11,C
+1234,0,Predict,Father,CA. 2343,35,3,male,Mr.,11,C
+1252,0,Predict,Son,CA. 2343,14,3,male,Master.,11,C
+1257,0,Predict,Mother,CA. 2343,34,3,female,Mrs.,11,C
+672,0,Actual,Father,F.C. 12750,31,1,male,Mr.,2,F
+984,1,Predict,Mother,F.C. 12750,27,1,female,Mrs.,4,F
+973,0,Predict,Hus.,PC 17483,67,1,male,Mr.,2,P
+1006,1,Predict,Wif.,PC 17483,63,1,female,Mrs.,2,P
+119,0,Actual,Son,PC 17558,24,1,male,Mr.,2,P
+300,1,Actual,Mother,PC 17558,50,1,female,Mrs.,2,P
+1076,1,Predict,Mother,PC 17558,27,1,female,Mrs.,3,P
+32,1,Actual,Wif.,PC 17569,40,1,female,Mrs.,2,P
+1208,0,Predict,Hus.,PC 17569,57,1,male,Mr.,2,P
+854,1,Actual,Dau.,PC 17592,16,1,female,Miss.,2,P
+1283,1,Predict,Mother,PC 17592,51,1,female,Mrs.,2,P
+156,0,Actual,Father,PC 17597,51,1,male,Mr.,2,P
+915,0,Predict,Son,PC 17597,21,1,male,Mr.,2,P
+2,1,Actual,Wif.,PC 17599,38,1,female,Mrs.,2,P
+1126,0,Predict,Hus.,PC 17599,39,1,male,Mr.,2,P
+514,1,Actual,Wif.,PC 17603,54,1,female,Mrs.,2,P
+912,0,Predict,Hus.,PC 17603,55,1,male,Mr.,2,P
+312,1,Actual,Dau.,PC 17608,18,1,female,Miss.,5,P
+743,1,Actual,Dau.,PC 17608,21,1,female,Miss.,5,P
+916,1,Predict,Mother,PC 17608,48,1,female,Mrs.,5,P
+956,1,Predict,Son,PC 17608,13,1,male,Master.,5,P
+1034,0,Predict,Father,PC 17608,61,1,male,Mr.,5,P
+680,1,Actual,Son,PC 17755,36,1,male,Mr.,2,P
+1235,1,Predict,Mother,PC 17755,58,1,female,Mrs.,2,P
+836,1,Actual,Dau.,PC 17756,39,1,female,Miss.,3,P
+1071,1,Predict,Mother,PC 17756,64,1,female,Mrs.,3,P
+1073,0,Predict,Son,PC 17756,37,1,male,Mr.,3,P
+701,1,Actual,Wif.,PC 17757,18,1,female,Mrs.,2,P
+1094,1,Predict,Hus.,PC 17757,47,1,male,Mr.,2,P
+308,1,Actual,Wif.,PC 17758,17,1,female,Mrs.,2,P
+506,0,Actual,Hus.,PC 17758,18,1,male,Mr.,2,P
+98,1,Actual,Son,PC 17759,23,1,male,Mr.,2,P
+1242,1,Predict,Mother,PC 17759,45,1,female,Mrs.,2,P
+545,0,Actual,Hus.,PC 17761,50,1,male,Mr.,2,P
+1131,1,Predict,Wif.,PC 17761,48,1,female,Mrs.,2,P
+11,1,Actual,Dau.,PP 9549,4,3,female,Miss.,3,P
+395,1,Actual,Mother,PP 9549,24,3,female,Mrs.,3,P
+1009,1,Predict,Dau.,PP 9549,1,3,female,Miss.,3,P
+818,0,Actual,Father,S.C./PARIS 2079,31,2,male,Mr.,3,S
+828,1,Actual,Son,S.C./PARIS 2079,1,2,male,Master.,3,S
+1253,1,Predict,Mother,S.C./PARIS 2079,24,2,female,Mrs.,3,S
+1078,1,Predict,Dau.,S.O./P.P. 2,21,2,female,Miss.,2,S
+1194,0,Predict,Father,S.O./P.P. 2,43,2,male,Mr.,2,S
+121,0,Actual,Sib.,S.O.C. 14879,21,2,male,Mr.,3,S
+656,0,Actual,Sib.,S.O.C. 14879,24,2,male,Mr.,3,S
+666,0,Actual,Sib.,S.O.C. 14879,32,2,male,Mr.,3,S
+595,0,Actual,Hus.,SC/AH 29037,37,2,male,Mr.,2,S
+1011,1,Predict,Wif.,SC/AH 29037,29,2,female,Mrs.,2,S
+433,1,Actual,Wif.,SC/AH 3085,42,2,female,Mrs.,2,S
+922,0,Predict,Hus.,SC/AH 3085,50,2,male,Mr.,2,S
+44,1,Actual,Dau.,SC/Paris 2123,3,2,female,Miss.,4,S
+609,1,Actual,Mother,SC/Paris 2123,22,2,female,Mrs.,4,S
+686,0,Actual,Father,SC/Paris 2123,25,2,male,Mr.,4,S
+1188,1,Predict,Dau.,SC/Paris 2123,1,2,female,Miss.,4,S
+1112,1,Predict,Sib.,SC/PARIS 2148,30,2,female,Miss.,2,S
+362,0,Actual,Hus.,SC/PARIS 2167,29,2,male,Mr.,2,S
+907,1,Predict,Wif.,SC/PARIS 2167,24,2,female,Mrs.,2,S
+1051,1,Predict,Mother,SOTON/O.Q. 3101315,26,3,female,Mrs.,3,S
+1173,1,Predict,Son,SOTON/O.Q. 3101315,1,3,male,Master.,3,S
+1301,0,Predict,Dau.,SOTON/O.Q. 3101315,3,3,female,Miss.,3,S
+910,0,Predict,Sib.,STON/O2. 3101270,27,3,female,Miss.,2,S
+784,0,Actual,Father,W./C. 6607,35,3,male,Mr.,4,W
+889,0,Actual,Dau.,W./C. 6607,8,3,female,Miss.,4,W
+925,0,Predict,Mother,W./C. 6607,34,3,female,Mrs.,4,W
+1136,1,Predict,Son,W./C. 6607,5,3,male,Master.,4,W
+87,0,Actual,Son,W./C. 6608,16,3,male,Mr.,5,W
+148,0,Actual,Dau.,W./C. 6608,9,3,female,Miss.,5,W
+437,0,Actual,Dau.,W./C. 6608,21,3,female,Miss.,5,W
+737,0,Actual,Mother,W./C. 6608,48,3,female,Mrs.,5,W
+1059,0,Predict,Son,W./C. 6608,18,3,male,Mr.,5,W
+93,0,Actual,Hus.,W.E.P. 5734,46,1,male,Mr.,2,W
+906,1,Predict,Wif.,W.E.P. 5734,47,1,female,Mrs.,2,W

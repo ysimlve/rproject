@@ -1,0 +1,37 @@
+---
+title: "R for Data Science"
+output:
+  html_document:
+    fig_height: 4.5
+    fig_width: 7.5
+    theme: cosmo
+    highlight: tango
+    number_sections: true
+    fig_caption: true
+    toc: true
+    code_folding: show
+---
+
+https://r4ds.had.co.nz/
+https://bookdown.org/home/
+
+# Data visualisation
+```{r message=FALSE, warning=FALSE, results='hide'}
+library(tidyverse)
+```
+
+The mpg data frame
+
+```{r}
+str(mpg)
+head(mpg)
+```
+
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, size = cyl, shape = drv), color = 'blue') +
+  geom_smooth(mapping = aes(x = displ, y = hwy), method = 'loess') 
+#  facet_wrap(~class, nrow = 2) 
+#  facet_grid(drv~cyl)
+```
+

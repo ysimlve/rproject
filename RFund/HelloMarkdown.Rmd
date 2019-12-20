@@ -1,0 +1,61 @@
+---
+title: "HelloMarkdown"
+author: "ysimlve27"
+date: "November 19, 2018"
+output:
+  html_document:
+    fig_height: 4.5
+    fig_width: 7.5
+    theme: cosmo
+    highlight: tango
+    number_sections: true
+    fig_caption: true
+    toc: true
+    code_folding: show
+---
+
+Below is a code chunk:
+
+```{r}
+a <- c(1:10)
+```
+
+Inline code sample: the first element of variable a is `r a[1]`
+
+# Markdown Syntax
+
+1. Inline formartting
+    - This is a sample of producing 'bold text' - **Hello World!**
+    - This is a sample of producing 'subscript' - H~2~O
+    - This is a sample of producing 'superscript' - X^2^ = X*X
+    - This is a sample of creating 'hyperlink' - [RStudio](https://www.rstudio.com)
+    - This is a sample of including 'img' - ![RStudio](./img/rstudio_log1.png)
+    - This is a sample of producing 'footnotes' - ^[This is a footnote.]
+
+2. Math expressions
+$$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
+
+
+# Preface {-}
+
+Hello
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
